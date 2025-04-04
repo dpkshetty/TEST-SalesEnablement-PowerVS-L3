@@ -2,8 +2,6 @@ IBM Cloud Logs is a scalable logging service that persists logs and provides use
 
 Logs are comprised of events that are typically human-readable and have different formats, for example, unstructured text, JSON, delimiter-separated values, and key-value pairs. You can use the events to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. IBM® Power® Virtual Server automatically generates events so that you can track activity on your service.
 
-For a complete list of all IBM Cloud Logs events for IBM Power Virtual Server, visit [this page](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-at-events){target="_blank"}
-
 !!! note "IBM Cloud Logs replaces IBM Log Analysis and IBM Cloud Activity Tracker"
 
     As of 30 March 2025 the IBM Log Analysis and IBM Cloud Activity Tracker services are no longer supported. IBM Cloud Logs replaces these two services. For information about IBM Cloud Logs, see the [IBM Cloud Logs documentation](https://cloud.ibm.com/docs/cloud-logs){target="_blank"}. Also it is important to note that while IBM Cloud Activity Tracker is being deprecated, activity tracker events will be supported in both the new IBM Cloud Logs service and with the existing IBM Cloud Activity Tracker Event Routing service. See [Deprecation FAQ](https://cloud.ibm.com/docs/activity-tracker?topic=activity-tracker-deprecation_faq){target="_blank"} for more details. You may also refer to [this blog](https://community.ibm.com/community/user/cloud/blogs/marisa-lopez-de-silanes/2025/03/03/migrating-your-activity-tracker-instances-to-cloud){target="_blank"} for guidance on migrating your Activity Tracker instances to Cloud Logs.
@@ -34,5 +32,11 @@ Note, this demonstration guide does not provide detailed information on provisio
 5. Configure the filters to view only PowerVS specific logs. To do that, select the checkbox **ibm-audit-event (A)** under Application section, enter **`power-iaas` (B)** in the search box under Subsystem section and select all **power-iaas (C)** checkboxes that appear. These settings narrow the events in the current view to those related to the PowerVS infrastructure resources. IBM Cloud Logs can also filter based on the severity level of the event. For example, informational, debug, warning, errors, and critical events.
    ![image](https://github.com/user-attachments/assets/6985d4c7-b277-4815-ba08-52718c7f42b6)
 
-6. The search results window (A) displays PowerVS activity events. If no events are visible, select the Timeline (B) option and choose a different timeline, by expanding the time range or selecting an earlier time period, until the events appear.
+6. The **search results window (A)** displays PowerVS activity events. If no events are visible, click the **Timeline (B)** option and choose a different timeline, by expanding the time range or selecting an earlier time period, until the events appear.
    ![image](https://github.com/user-attachments/assets/9e378210-6c42-46de-a600-abe3425d6dff)
+
+7. **Double-click (A)** anywhere on an event to open it and view the details. The **Text** column provides finer details about the selected event. This includes information like what the event was (action), who initiated it, the outcome of the event and many more. Explore a few of the different events that exist.
+   ![image](https://github.com/user-attachments/assets/49c77d61-bb59-4390-8662-5fc625a41840)
+   ![image](https://github.com/user-attachments/assets/39cf22bd-ce68-42a1-b194-bb1249b20356)
+
+For a complete list of all IBM Cloud Logs events for IBM Power Virtual Server, visit [this page](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-at-events){target="_blank"}
