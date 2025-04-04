@@ -11,24 +11,6 @@ The learning material is divided across distinct parts, each with one or more ch
 
 The following guidance helps save time in completing the demonstration steps.
 
-## Support
-
-Think something is down? Check the applicable status pages for current updates:
-
--  <a href="https://techzone.status.io/" target="_blank">IBM Technology Zone</a>
--  <a href="https://cloud.ibm.com/status" target="_blank">IBM Cloud</a>
-
-For issues with provisioning or accessing the environment in IBM Technology Zone (ITZ) open a ticket with ITZ support:
-- Web:  <a href="https://ibmsf.force.com/ibminternalproducts/s/createrecord/NewCase?language=en_US" target="_blank">IBM Technology Zone</a>
-- Email: <a href="mailto:techzone.help@ibm.com" target="_blank">techzone.help.ibm.com</a>
-
-For issues related to specific steps found in the demonstration guide after the ITZ environment is provisioned, contact the authors:
-
-- Slack: <a href="{{supportSlack.url}}" target="_blank">{{supportSlack.name}}</a> - IBM only
-- Email: <a href="{{supportEmail}}" target="_blank">{{supportEmail}}</a>
-
-Business Partners can also use the IBM Training live Chat Support service or other support methods that are found on the IBM Training portal <a href="https://ibmcpsprod.service-now.com/its?id=sc_category&sys_id=6568bfafdb2f13008ea7d6fa4b961990" target="_blank">here</a>.
-
 ## Using the demonstration guide
 
  The {{guide.name}} uses a reactive browser-based interface. The Demonstration Guide table of contents may be displayed as shown in this image.
