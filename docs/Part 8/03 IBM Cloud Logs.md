@@ -19,8 +19,7 @@ In the steps that follow, learn how to:
 Note, this demonstration guide does not provide detailed information on provisioning, configuring, and customizing IBM Cloud Logs, nor does it provide details on the meaning of individual activities.
 
 1. Click the IBM Cloud portal **hamburger (A)** menu, expand the **Observability (B)** menu and click **Logging (C)**.
-   ![image](https://github.com/user-attachments/assets/0f610b4e-bd70-45c2-acbf-e94818835d76)
-   
+   ![image](https://github.com/user-attachments/assets/0f610b4e-bd70-45c2-acbf-e94818835d76)   
    ![image](https://github.com/user-attachments/assets/5e8477dc-44be-4b04-876c-d740f2d2e99b)
 
 2. You will be taken to the Observability page. Expand **Logging (A)** menu and click **Instances (B)**.
