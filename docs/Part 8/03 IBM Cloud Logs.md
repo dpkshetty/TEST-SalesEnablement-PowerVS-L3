@@ -22,6 +22,11 @@ Note, this demonstration guide does not provide detailed information on provisio
    ![image](https://github.com/user-attachments/assets/0f610b4e-bd70-45c2-acbf-e94818835d76)   
    ![image](https://github.com/user-attachments/assets/5e8477dc-44be-4b04-876c-d740f2d2e99b)
 
-2. You will be taken to the Observability page. Expand **Logging (A)** menu and click **Instances (B)**.
+2. The Observability page will open. Expand **Logging (A)** menu and click **Instances (B)**.
    ![image](https://github.com/user-attachments/assets/8f9d0c9b-3d3c-4cc6-bab6-218dad533d52)
 
+3. All the Cloud Logs instances will be displayed. As mentioned earlier, an IBM Cloud Logs instance (**CL-PowerVS-L3 (A)**) already provisioned can be seen here. Click **Dashboard (B)**.
+   ![image](https://github.com/user-attachments/assets/0c7664b5-ccd7-4b81-ac29-74463d52c76b)
+
+4. Cloud Logs dashboard page will open up in a new browser tab or window. Navigate to the new browser tab or window, click **Explore Logs (A)** and select **Logs (B)**.
+   ![image](https://github.com/user-attachments/assets/b93227a2-2c69-454e-ac6f-e24851ba3b5e)
