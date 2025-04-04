@@ -1,6 +1,6 @@
 IBM Cloud Logs is a scalable logging service that persists logs and provides users with capabilities for querying, tailing, and visualizing logs.
 
-Logs are comprised of events that are typically human-readable and have different formats, for example, unstructured text, JSON, delimiter-separated values, and key-value pairs. You can use the events to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. IBM® Power® Virtual Server automatically generates events so that you can track activity on your service.
+Logs are comprised of events that are typically human-readable and have different formats, for example, unstructured text, JSON, delimiter-separated values, and key-value pairs. You can use the events to investigate abnormal activity and critical actions and to comply with regulatory audit requirements. IBM Power Virtual Server automatically generates events so that you can track activity on your service.
 
 !!! note "IBM Cloud Logs replaces IBM Log Analysis and IBM Cloud Activity Tracker"
 
