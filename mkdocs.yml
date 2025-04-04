@@ -86,6 +86,24 @@ plugins:
     - macros
     - search
     - glightbox
+    - print-site:
+        add_to_navigation: true
+        print_page_title: 'Print Course'
+        add_print_site_banner: true
+        print_site_banner_template: docs/assets/templates/print_site_banner.tpl
+        # Table of contents
+        add_table_of_contents: true
+        toc_title: 'Table of Contents'
+        toc_depth: 6
+        # Content-related
+        add_full_urls: false
+        enumerate_headings: false
+        enumerate_figures: true
+        add_cover_page: true
+        cover_page_template: ""
+        path_to_pdf: ""
+        include_css: true
+        enabled: true
 
 markdown_extensions:
   - sane_lists
