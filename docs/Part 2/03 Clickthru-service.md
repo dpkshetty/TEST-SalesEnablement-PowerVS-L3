@@ -2,12 +2,12 @@ Use the click through demonstration to practice provisioning an IBM Power Virtua
 
 Note: Access to provision a new workspace is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry (for example **workspace name**) are pre-populated in the click through demonstration.
 
-!!! tip "Tips for maximizing the click through experience"
-    To initiate the click through demonstration, select the “Play” button. Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.
-
 1. Open the following link and then click the play ![image](https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97) button to begin the demonstration.<br>
 
     **click through demo:** <a href="https://dpkshety.github.io/TEST-SalesEnablement-PowerVS-L3/blob/main/docs/includes/Provisioning-a-Workspace/index.html" target ="_blank">Create an IBM Power Virtual Server workspace</a>
+    
+      !!! tip "Tips for maximizing the click through experience"
+          To initiate the click through demonstration, select the “Play” button. Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.
 
 2. Click **Catalog** in the top menu bar.
 3. Click the **Search the catalog...** field.
