@@ -6,7 +6,7 @@ Note: Access to provision a new workspace is not provided in the IBM Technology 
 
     **click through demo:** <a href="https://dpkshety.github.io/TEST-SalesEnablement-PowerVS-L3/blob/main/docs/includes/Provisioning-a-Workspace/index.html" target ="_blank">Create an IBM Power Virtual Server workspace</a><br>
     
-   !!! tip "Tips for maximizing the click through experience"
+     !!! tip "Tips for maximizing the click through experience"
 
          To initiate the click through demonstration, select the “Play” button. Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.
 
