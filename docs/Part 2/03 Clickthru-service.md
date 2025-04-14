@@ -8,7 +8,7 @@ Note: Access to provision a new workspace is not provided in the IBM Technology 
     
     !!! tip "Tips for maximizing the click through experience"
 
-       Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.
+        Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.
 
 3. Click **Catalog** in the top menu bar.
 4. Click the **Search the catalog...** field.
