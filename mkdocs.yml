@@ -143,7 +143,7 @@ extra:
     placementGroup1: "GroupTogether"
     placementGroup2: "GroupApart"
     sshKey: "PowerVS-key"
-    privateSubnet: "private-powervs-2024"
+    privateSubnet: "private-powervs-2025"
     privateSubnetCIDR: "192.168.100.0/24"
     privateSubnetGW: "192.168.100.15"
     privateSubnetDNS: "127.0.0.1"
