@@ -50,15 +50,15 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 24. Click **7300-03-00**.
 25. Click the **Tier** pull-down (set to **Tier 3 (3 IOPs/GB)** by default).
 26. Click **Tier 3 (3 IOPs/GB)**.
-27. Click the **Advanced configurations** pull-down. This option allows users to specify **cloud-init user data** and **boot volume replication**.<br>**cloud-init user data** is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. Learn more about **boot volume replication** in next step.
+27. Click the **Advanced configurations** pull-down. This option allows users to specify **cloud-init user data** and **boot volume replication**. **cloud-init user data** is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. <br>Learn more about **boot volume replication** in next step.
 28. Click the **Boot volume replication** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 29. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 25. Click **Continue** under the **Boot image** section.
 
-    The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
+The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
 
-26. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-27. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+33. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+34. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 28. Click the **Select machine type** pull-down.
 29. Click **s1022**.
 30. Click the **Core type** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
@@ -69,8 +69,8 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 The next steps refer to the entries in the **Storage volumes** section of the **Create virtual server instance** form.
 
-33. Click **Create volume +**.
-34. Click in the **Name** field.
+42. Click **Create volume +**.
+43. Click in the **Name** field.
 35. Click the **User tags** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 36. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 37. Click **+** to increase the size of the volume to 2 GB.
@@ -89,8 +89,8 @@ The next steps refer to the entries in the **Network interfaces** section of the
 
 **Note**: for this demonstration, the instance is provisioned with a public network (internet facing). A public network simplifies demonstrating access to instances. However, most production deployments of PowerVS use private networks and control access with Direct Link, Virtual Private Network (VPN), or Megaport Software Defined Network (SDN). To learn more about PowerVS networking options, look <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
-41.  Toggle **Public networks** to **On**.
-42.  Click **Attach existign network +**.
+57.  Toggle **Public networks** to **On**.
+58.  Click **Attach existign network +**.
 43.  Click the **Select Network** pull-down.
 44.  Click **{{powerVS.privateSubnet}}**.
 45.  Click **Attach**.
