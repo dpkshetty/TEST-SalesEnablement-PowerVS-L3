@@ -2623,14 +2623,10 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <p>If you skipped the Part 3 Introduction and are not familiar with the features of PowerVS like storage pools, storage tiers, etc. you should consider going back and reading it. </p>
 </div>
 <p><strong>Note</strong>: Access to provision a new VSI is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry are pre-populated in the click through demonstration.</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.</p>
-</div>
 <ol>
 <li>
-<p>Open the following link and then click the play <a class="glightbox" href="../Part%203/_attachments/ClickThruPlayButton.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/ClickThruPlayButton.png"></a> to begin the demonstration.</p>
-<p><strong>Click through demonstration:</strong> <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/includes/Provision-AIXVM/index.html" target="_blank">Create an IBM Power Virtual Server Instance</a></p>
+<p>Open the following link and then click the play <a class="glightbox" href="https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97"></a> button to begin the demonstration.</p>
+<p><strong>Click through demonstration:</strong> <a href="https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/includes/Provision-AIXVM/index.html" target="_blank">Create an IBM Power Virtual Server Instance</a></p>
 <div class="admonition tip">
 <p class="admonition-title">Tips for maximizing the click through experience</p>
 <p>Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. <strong>For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.</strong></p>
@@ -2660,7 +2656,7 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <li>Click <strong>Continue</strong> in the <strong>General</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Boot image</strong> section of the <strong>Create virtual server instance</strong> form.</p>
-<ol start="17">
+<ol start="19">
 <li>Click the <strong>Select OS</strong> pull-down.</li>
 <li>Click <strong>AIX</strong>.</li>
 <li>Click the <strong>Configure for Epic workloads</strong> information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) and read the helpful information.</li>
@@ -2671,14 +2667,14 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <li>Click <strong>7300-03-00</strong>.</li>
 <li>Click the <strong>Tier</strong> pull-down (set to <strong>Tier 3 (3 IOPs/GB)</strong> by default).</li>
 <li>Click <strong>Tier 3 (3 IOPs/GB)</strong>.</li>
-<li>Click the <strong>Advanced configurations</strong> pull-down. This option allows users to specify <strong>cloud-init user data</strong> and <strong>boot volume replication</strong>.<br><strong>cloud-init user data</strong> is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. Learn more about <strong>boot volume replication</strong> in next step.</li>
+<li>Click the <strong>Advanced configurations</strong> pull-down. This option allows users to specify <strong>cloud-init user data</strong> and <strong>boot volume replication</strong>. <strong>cloud-init user data</strong> is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. <br>Learn more about <strong>boot volume replication</strong> in next step.</li>
 <li>Click the <strong>Boot volume replication</strong> information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) and read the helpful information.</li>
 <li>Click the information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) again to close the information dialog.</li>
 <li>Click <strong>Continue</strong> under the <strong>Boot image</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Profile</strong> section of the <strong>Create virtual server instance</strong> form.</p>
-<ol start="26">
-<li>Click the <strong>Deployto dedicated host</strong> information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) and read the helpful information.</li>
+<ol start="33">
+<li>Click the <strong>Deploy to dedicated host</strong> information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) and read the helpful information.</li>
 <li>Click the information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) again to close the information dialog.</li>
 <li>Click the <strong>Select machine type</strong> pull-down.</li>
 <li>Click <strong>s1022</strong>.</li>
@@ -2689,7 +2685,7 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <li>Click <strong>Continue</strong> under the <strong>Profile</strong> section.</li>
 </ol>
 <p>The next steps refer to the entries in the <strong>Storage volumes</strong> section of the <strong>Create virtual server instance</strong> form.</p>
-<ol start="33">
+<ol start="42">
 <li>Click <strong>Create volume +</strong>.</li>
 <li>Click in the <strong>Name</strong> field.</li>
 <li>Click the <strong>User tags</strong> information icon (<a class="glightbox" href="../Part%203/_attachments/infoIcon.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%203/_attachments/infoIcon.png"></a>) and read the helpful information.</li>
@@ -2708,7 +2704,7 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 </ol>
 <p>The next steps refer to the entries in the <strong>Network interfaces</strong> section of the <strong>Create virtual server instance</strong> form.</p>
 <p><strong>Note</strong>: for this demonstration, the instance is provisioned with a public network (internet facing). A public network simplifies demonstrating access to instances. However, most production deployments of PowerVS use private networks and control access with Direct Link, Virtual Private Network (VPN), or Megaport Software Defined Network (SDN). To learn more about PowerVS networking options, look <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.</p>
-<ol start="41">
+<ol start="57">
 <li>Toggle <strong>Public networks</strong> to <strong>On</strong>.</li>
 <li>Click <strong>Attach existign network +</strong>.</li>
 <li>Click the <strong>Select Network</strong> pull-down.</li>
