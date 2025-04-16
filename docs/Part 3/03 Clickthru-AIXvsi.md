@@ -38,10 +38,10 @@ The next steps refer to the entries in the **General** section of the **Create v
 17. Click **{{powerVS.sshKey}}**.
 18. Click **Continue** in the **General** section.
 
-<p>The next steps refer to the entries in the **Boot image** section of the **Create virtual server instance** form.</p>
+The next steps refer to the entries in the **Boot image** section of the **Create virtual server instance** form.
 
-17. Click the **Select OS** pull-down.
-18. Click **AIX**.
+19. Click the **Select OS** pull-down.
+20. Click **AIX**.
 19. Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 20. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 21. Click the **Deploy empty virtual server instance** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
