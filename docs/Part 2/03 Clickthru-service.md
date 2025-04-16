@@ -1,6 +1,6 @@
 Use the click through demonstration to practice provisioning an IBM Power Virtual Server (PowerVS) workspace.
 
-Note: Access to provision a new workspace is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry (for example **workspace name**) are pre-populated in the click through demonstration.
+**Note**: Access to provision a new workspace is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry (for example **workspace name**) are pre-populated in the click through demonstration.
 
 1. Open the following link and then click the play ![image](https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97) button to begin the demonstration.<br>
 
