@@ -137,7 +137,7 @@ extra:
     url: "https://techzone.ibm.com/my/reservations"
   account: "2305900 - ITZ - ADHOC03"
   powerVS:
-    serviceInstanceName: "PowerVS-L3-2024"
+    serviceInstanceName: "PowerVS-L3-2025"
     serviceInstanceRG: "PowerVS-L3"
     serviceInstanceLocation: "WDC07"
     placementGroup1: "GroupTogether"
