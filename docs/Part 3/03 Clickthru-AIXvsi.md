@@ -13,6 +13,10 @@ Use this click through demonstration to provision an AIX virtual server image (V
 
     **Click through demonstration:** <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/includes/Provision-AIXVM/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
 
+    !!! tip "Tips for maximizing the click through experience"
+
+        Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. **For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.**
+
 2. Click **{{powerVS.serviceInstanceName}}** in the **Workspaces** table.
 3. Click **View virtual servers**.
 4. Click **Create instance +**.
