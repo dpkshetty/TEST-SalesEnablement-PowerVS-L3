@@ -1442,11 +1442,11 @@
 </li>
 <li>
 <p>Set the workspace target by using the instance ID of the workspace.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>workspaceID=`ibmcloud pi workspace ls 2&gt;&amp;1 | grep PowerVS-L3-2024 | tail -1 | cut -f1 -d' '`
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>workspaceID=`ibmcloud pi workspace ls 2&gt;&amp;1 | grep PowerVS-L3-2025 | tail -1 | cut -f1 -d' '`
 </code></pre></div>
 <details class="tip">
 <summary>Tip for novice Linux users!</summary>
-<p>The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (<strong>2&gt;&amp;1</strong>). Next, the output is filtered (grep) to show the line for the PowerVS-L3-2024. Then the output from the <strong>grep</strong> command is sent to the <strong>cut</strong> command where all the output except the first field up to the first space character is ignored (<strong>-f -d' '</strong>). Finally, the output from the <strong>cut</strong> command was stored in an environment variable called <strong>workspaceID</strong>. Why? Because no one wants to type <strong>crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::</strong> to run the next command.</p>
+<p>The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (<strong>2&gt;&amp;1</strong>). Next, the output is filtered (grep) to show the line for the PowerVS-L3-2025. Then the output from the <strong>grep</strong> command is sent to the <strong>cut</strong> command where all the output except the first field up to the first space character is ignored (<strong>-f -d' '</strong>). Finally, the output from the <strong>cut</strong> command was stored in an environment variable called <strong>workspaceID</strong>. Why? Because no one wants to type <strong>crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::</strong> to run the next command.</p>
 </details>
 </li>
 <li>
