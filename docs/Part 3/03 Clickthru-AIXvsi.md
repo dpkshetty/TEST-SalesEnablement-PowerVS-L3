@@ -55,7 +55,7 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 29. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 25. Click **Continue** under the **Boot image** section.
 
-The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
+    The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
 
 26. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 27. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
