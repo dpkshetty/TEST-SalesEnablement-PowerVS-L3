@@ -6,7 +6,7 @@ Use this click through demonstration to provision an AIX virtual server image (V
 
 **Note**: Access to provision a new VSI is not provided in the IBM Technology Zone cloud account. Use this click through demonstration to simulate this activity. Fields that require a text entry are pre-populated in the click through demonstration.
 
-1. Open the following link and then click the play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
+1. Open the following link and then click the play ![image](https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97) button to begin the demonstration.
 
     **Click through demonstration:** <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/includes/Provision-AIXVM/index.html" target ="_blank">Create an IBM Power Virtual Server Instance</a>
 
