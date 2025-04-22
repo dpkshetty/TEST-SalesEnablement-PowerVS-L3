@@ -1,4 +1,4 @@
-Use this click through demonstration to provision an AIX virtual server image (VSI). 
+Use this click through demonstration to provision an AIX virtual server instance (VSI). 
 
 !!! Important
 
