@@ -88,7 +88,7 @@ The next steps refer to the entries in the **Network interfaces** section of the
 
 57.  Toggle **Public networks** to **On**.
 58.  Click **Attach existign network +**.
-43.  Click the **Select Network** pull-down.
+43.  Click the **Existing subnets** pull-down.
 44.  Click **{{powerVS.privateSubnet}}**.
 45.  Click **Attach**.
 46.  Click **Finish** under the **Network interfaces** section.
