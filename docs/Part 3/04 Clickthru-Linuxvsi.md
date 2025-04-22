@@ -64,8 +64,8 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 The next steps refer to the entries in the **Storage volumes** section of the **Create virtual server instance** form.
 
-42. The process of creating a new storage volume in the AIX click-through has been previously covered. This demonstration will focus on utilizing an existing storage volume. The storage volume created in the AIX click-through was designated as "Shareable," and will therefore be used in this demonstration. To proceed, click **Attach existing +**.
-43. Select **powervs-volume-2025**.
+40. The process of creating a new storage volume in the AIX click-through has been previously covered. This demonstration will focus on utilizing an existing storage volume. The storage volume created in the AIX click-through was designated as "Shareable," and will therefore be used in this demonstration. To proceed, click **Attach existing +**.
+41. Select **powervs-volume-2025**.
 45. Click **Attach volume**.
 44. Click **Advanced configurations** pull-down.
 45. Click the **Configure for large quantity volumes** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
