@@ -1,4 +1,4 @@
-Use this click through demonstration to provision an Linux virtual server image (VSI). 
+Use this click through demonstration to provision an Linux virtual server instance (VSI). 
 
 !!! Important
 
@@ -77,7 +77,7 @@ The next steps refer to the entries in the **Network interfaces** section of the
 **Note**: for this demonstration, the instance is provisioned with a public network (internet facing). A public network simplifies demonstrating access to instances. However, most production deployments of PowerVS use private networks and control access with Direct Link, Virtual Private Network (VPN), or Megaport Software Defined Network (SDN). To learn more about PowerVS networking options, look <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
 57.  Toggle **Public networks** to **On**.
-58.  Click **Attach existign network +**.
+58.  Click **Attach existing network +**.
 43.  Click the **Existing subnets** pull-down.
 44.  Click **{{powerVS.privateSubnet}}**.
 45.  Click **Attach**.
