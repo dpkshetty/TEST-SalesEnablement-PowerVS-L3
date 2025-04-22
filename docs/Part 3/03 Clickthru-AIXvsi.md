@@ -95,4 +95,4 @@ The next steps refer to the entries in the **Network interfaces** section of the
 47.  Click **I agree to the Terms and conditions**.
 48.  Click **Create**.
 
-The AIX PowerVS instance is now being provisioned. This process took approximately 40 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. After the status changes to an **Active** state, the instance is ready to be accessed.
+The AIX PowerVS instance is now being provisioned. This process took approximately 20 minutes. Notice the value under the **Status** column of the **Virtual server instances** table. After the status changes to an **Active** state, the instance is ready to be accessed.
