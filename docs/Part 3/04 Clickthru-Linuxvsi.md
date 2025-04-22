@@ -52,8 +52,8 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
 
-33. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-34. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+31. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+32. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 28. Click the **Select machine type** pull-down.
 29. Click **s1022**.
 30. Click the **Core type** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
@@ -64,9 +64,9 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 The next steps refer to the entries in the **Storage volumes** section of the **Create virtual server instance** form.
 
-42.The process of creating a new storage volume in the AIX click-through has been previously covered. This demonstration will focus on utilizing an existing storage volume. The storage volume created in the AIX click-through was designated as "Shareable," and will therefore be used in this demonstration. To proceed, click **Attach existing +**.
+42. The process of creating a new storage volume in the AIX click-through has been previously covered. This demonstration will focus on utilizing an existing storage volume. The storage volume created in the AIX click-through was designated as "Shareable," and will therefore be used in this demonstration. To proceed, click **Attach existing +**.
 43. Select **powervs-volume-2025**.
-44. Click **Attach volume**.
+45. Click **Attach volume**.
 44. Click **Advanced configurations** pull-down.
 45. Click the **Configure for large quantity volumes** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 46. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
