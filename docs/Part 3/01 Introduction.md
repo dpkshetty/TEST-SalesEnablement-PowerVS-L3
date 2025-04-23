@@ -7,7 +7,7 @@
 - **Server placement group**: Server placement groups provide control over the host or server on which a new VM is placed. By using server placement groups, high availability solutions can be created within a data center. Apply an affinity or anti-affinity policy to each VM instance within a server placement group. All VMs in a placement group with an affinity policy are started on the same server. All VMs in a placement group with an anti-affinity policy are started on different servers. Learn more about <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-placement-groups" target="_blank">placement groups</a>.
 - **Shared processor pool**: Shared processor pools (SPP) can be used to split cores between a set of VSIs and provides a better overall ability to manage processor resources. SPP helps reduce software licensing costs by limiting the number of processors an uncapped partition can use. For more information on SPP, refer to [this document](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP){target="_blank"}.
 
-- **VM pinning policy**: VM pinning controls the movement of VMs during disasters and other restart events. Learn more about hard and soft pinning <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#pinning" target="_blank">here</a>.
+- **Virtual server pinning**: Virtual server pinning controls the movement of VMs during disasters and other restart events. Learn more about hard and soft pinning <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-power-iaas-faqs#pinning" target="_blank">here</a>.
 
 - **SSH key**: An SSH public and private key pair is required to access the instance. An SSH key must be created and loaded into the IBM Cloud Portal before an instance can be provisioned. Learn more about using and generating SSH keys <a href="https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-adding-an-ssh-key" target="_blank">here</a>.
 
@@ -16,6 +16,14 @@
     * For PowerVS in client location (PowerVS private cloud), refer to [this document](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-private-cloud-architecture){target="_blank"}.
 
 - **OS image**: Users can choose an operating system image from the PowerVS image catalog or users can bring their own image. Each supported OS has a specific set of images in the PowerVS catalog for supported OS versions. Each instance is provisioned with a boot volume that uses the storage tier selected.
+
+- **Configure for Epic workloads** _(Applicable for AIX OS only)_: Clients can configure virtual machine (VM) instance to deploy Epic workloads when they select AIX as their operating system. For more information on configuring a VM for Epic workloads, refer to [this document](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#configuring-a-vm-for-epic-workloads){target="_blank"}.
+
+    !!! info "What are Epic systems?"
+
+      Epic Systems, also known simply as Epic, is one of the largest providers of health information technology, used primarily by large U.S. hospitals and health systems to access, organize, store and share electronic medical records. Epic remains one of the largest electronic health record (EHR) vendors in the United States. 
+
+- **Deploy empty virtual server instance**: Clients can create or provision a virtual server instance (VM) without any initial boot image volume. VMs without boot volume are helpful in high availability and disaster recovery use cases. A VM can be created without a boot volume and the volume that is cloned or replicated can be attached to a VM to bring the backed-up VM. For more information, refer to [this document](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#empty-vm){target="_blank"}.
 
 - **Storage tier**: PowerVS supports 4 tiers of storage. Tier 3 provides a maximum of 3 input/output operations per second (IOPs) per gigabyte (GB). Tier 1 provides a maximum of 10 IOPs/GB. Tier 0 provides a maximum of 25 IOPs/GB. The Fixed IOPs tier provides 5,000 IOPs regardless of size; however, the Fixed IOPs tier is limited to volumes with a size of 200 GB or less.
 
