@@ -68,8 +68,8 @@ The next steps refer to the entries in the **Profile** section of the **Create v
 
 The next steps refer to the entries in the **Storage volumes** section of the **Create virtual server instance** form.
 
-42. Click **Create volume +**.
-43. Click in the **Name** field.
+44. Click **Create volume +**.
+45. Click in the **Name** field.
 35. Click the **User tags** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 36. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 37. Click **+** to increase the size of the volume to 2 GB.
