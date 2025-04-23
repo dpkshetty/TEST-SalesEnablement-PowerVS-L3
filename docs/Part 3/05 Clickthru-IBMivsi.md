@@ -56,8 +56,8 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
 
-33. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-34. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+35. Click the **Deploy to dedicated host** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+36. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 28. Click the **Select machine type** pull-down.
 29. Click **s1022**.
 30. Click the **Core type** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
