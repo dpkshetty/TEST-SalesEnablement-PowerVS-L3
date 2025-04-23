@@ -39,17 +39,19 @@ The next steps refer to the entries in the **Boot image** section of the **Creat
 
 19. Click the **Select OS** pull-down.
 20. Click **IBM i**.
-19. Click the **Configure for Epic workloads** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-20. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 21. Click the **Deploy empty virtual server instance** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-22. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
-23. Click the **Select image** pull-down.
-24. Click **7300-03-00**.
-25. Click the **Tier** pull-down (set to **Tier 3 (3 IOPs/GB)** by default).
-26. Click **Tier 3 (3 IOPs/GB)**.
-27. Click the **Advanced configurations** pull-down. This option allows users to specify **cloud-init user data** and **boot volume replication**. **cloud-init user data** is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. <br>Learn more about **boot volume replication** in next step.
-28. Click the **Boot volume replication** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
-29. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+23. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+24. Click the **Select image** pull-down.
+25. Click **IBMi-75-05-2984-1**.
+26. Click the **Virtual serial number** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+27. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+28. Click the **Tier** pull-down (set to **Tier 3 (3 IOPs/GB)** by default).
+29. Click **Tier 3 (3 IOPs/GB)**.
+30. Click the **IBM i Licenses** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+31. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
+32. Click the **Advanced configurations** pull-down. This option allows users to specify **cloud-init user data** and **boot volume replication**. **cloud-init user data** is used when VSI is booted. In the user data, you have the option to include custom content that enables you to tailor the startup configuration for the specific instance. <br>Learn more about **boot volume replication** in next step.
+33. Click the **Boot volume replication** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+34. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 25. Click **Continue** under the **Boot image** section.
 
 The next steps refer to the entries in the **Profile** section of the **Create virtual server instance** form.
@@ -73,8 +75,7 @@ The next steps refer to the entries in the **Storage volumes** section of the **
 37. Click **+** to increase the size of the volume to 2 GB.
 38. Click the **Tier** pull-down (it will already be set to **Tier3 (3 IOPs/GB)**).
 39. Click **Tier 3 (3 IOPs/GB)**.
-40. Toggle **Shareable** to **On**.
-41. Click the **Volume replication with GRS** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
+40. Click the **Volume replication with GRS** information icon (![](_attachments/infoIcon.png)) and read the helpful information.
 42. Click the information icon (![](_attachments/infoIcon.png)) again to close the information dialog.
 43. Click **Create and attach**.
 44. Click **Advanced configurations** pull-down.
