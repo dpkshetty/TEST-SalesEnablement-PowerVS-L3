@@ -21,7 +21,7 @@
 
     !!! info "What are Epic systems?"
 
-      Epic Systems, also known simply as Epic, is one of the largest providers of health information technology, used primarily by large U.S. hospitals and health systems to access, organize, store and share electronic medical records. Epic remains one of the largest electronic health record (EHR) vendors in the United States. 
+        Epic Systems, also known simply as Epic, is one of the largest providers of health information technology, used primarily by large U.S. hospitals and health systems to access, organize, store and share electronic medical records. Epic remains one of the largest electronic health record (EHR) vendors in the United States. 
 
 - **Deploy empty virtual server instance**: Clients can create or provision a virtual server instance (VM) without any initial boot image volume. VMs without boot volume are helpful in high availability and disaster recovery use cases. A VM can be created without a boot volume and the volume that is cloned or replicated can be attached to a VM to bring the backed-up VM. For more information, refer to [this document](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-creating-power-virtual-server#empty-vm){target="_blank"}.
 
