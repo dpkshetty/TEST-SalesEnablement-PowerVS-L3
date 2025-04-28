@@ -75,7 +75,7 @@ An error is expected, as full access to the shared environment is **not** provid
 
     Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
 
-12. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog.
+12. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog to close it.
     ![image](https://github.com/user-attachments/assets/8d0fdfe6-814f-4d22-a2c8-d75cbbb0745a)
 
 
