@@ -67,13 +67,15 @@ An error is expected, as full access to the shared environment is **not** provid
         ![](_attachments/bigEllipses.png)
 
 9. Click anywhere on the main screen (away from the menu from step 7).
-10. Click the **Edit details** (**A**) link.
+10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). From this dialog, the storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage. **Hint**: Business Partners should take note of the **Limited actions available during capture** information dialog that appears on the **Capture and export** page.
+    ![image](https://github.com/user-attachments/assets/ad1edafb-f842-4a75-9f97-e314f44ef292)
+11. Click the **Edit details** (**A**) link.
 
     ![image](https://github.com/user-attachments/assets/3c232c93-421d-47a7-9c39-1a1bce200b5a)
 
     Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
 
-11. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog.
+12. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog.
     ![image](https://github.com/user-attachments/assets/8d0fdfe6-814f-4d22-a2c8-d75cbbb0745a)
 
 
@@ -88,4 +90,6 @@ Before proceeding, take a few minutes exploring other aspects of managing PowerV
 - In **Attached volumes** section, click **Create volume**. Notice that it is now possible to add a **Storage volume** that uses a different tier of storage than the instance boot volume.
   ![image](https://github.com/user-attachments/assets/2dcfebb5-37d1-4bb5-b95a-eca6bfb4d4af)
 
-- Click the **VM actions** drop-down menu and select **Capture and export**. From this dialog, the storage volumes can be exported to either the PowerVS service Image catalog or to IBM Cloud Object Storage. **Hint**: Business Partners should take note of the **Limited actions available during capture** information dialog that appears on the **Capture and export** page.
+- In **Network interfaces** section, **Private networks** sub-section, click **Attach existing network** (**A**). Notice how it shows existing private subnets. A VSI can be attached to one or more private subnets.
+  ![image](https://github.com/user-attachments/assets/78477159-8d70-4c0f-a218-84513f12100d)
+
