@@ -1,14 +1,14 @@
 Using the IBM Cloud portal and command-line interfaces (CLIs), users can do the following actions on individual IBM Power Virtual Servers (PowerVS) instances (VSIs):
 
 - Shutdown an operating system (OS)
-- Immediate shutdown (without killing processes) of an OS
+- Immediate shutdown (without killing processes gracefully) of an OS
 - Restart
-- Reset
 - Open a console to the instance
 - Delete an instance
 - Capture and export an image of an instance
-- Modify an image 
-    - Change pinning policy
+- Modify a VSI
+    - Change the name of the VSI
+    - Change virtual server pinning policy
     - Add or remove cores
     - Add or remove memory
     - Modify placement group
@@ -20,7 +20,7 @@ Using the IBM Cloud portal and command-line interfaces (CLIs), users can do the 
 
 Using the IBM Cloud portal, complete the following scenario for managing PowerVS instances by using the "baking show" demonstration technique. Note, an error message like the following one is encountered if an attempt is made to complete an action.
 
-![](_attachments/ErrorMessage2.png)
+![image](https://github.com/user-attachments/assets/759e43dd-a733-47a9-8460-530a99f93a53)
 
 An error is expected, as full access to the shared environment is **not** provided. To avoid the error message, click **Cancel** on the action dialog. During a live client demonstration, or for an IBMers Stand and Deliver, tell the audience why the action is being canceled but explain what happens when the action is completed.
 
