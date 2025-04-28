@@ -34,25 +34,29 @@ An error is expected, as full access to the shared environment is **not** provid
 
 <!-- 3. Click **Services and software** under **Resource summary** on the IBM Cloud Dashboard. -->
 
-3. Click the **Resource List** ![](_attachments/ResourceListIcon.png) icon in the left menu bar.
+3. Click the hamburger menu icon (**A**)
 
-    ![](_attachments/NewDashboard.png)
+    ![image](https://github.com/user-attachments/assets/74a0c81f-e687-4d92-9a39-4519f7141e36)
 
     !!! Note
         
         After switching accounts a new user questionnaire or other dialogs can appear. Cancel these windows. If the IBM Cloud Dashboard is not displayed as seen in the previous image, click the **IBM Cloud** text at upper left of the IBM Cloud Portal.
+   
+5. Click **Resource List**  (**A**)
 
-4. Click **{{powerVS.serviceInstanceName}}** under **Compute**.
+    ![image](https://github.com/user-attachments/assets/706544ac-667b-4086-a485-79670f2cecbb)
 
-    ![](_attachments/ResourceListofWorkspaces.png)
+6. Click **{{powerVS.serviceInstanceName}}** (**A**) under **Compute**.
 
-5. Click **{{aixServer1.name}}** in the **Virtual server workspaces** table.
+    ![image](https://github.com/user-attachments/assets/5b779dc8-4bd3-4909-8571-d7ac217502a1)
 
-    ![](_attachments/VSIInstancesTable.png)
+7. Click **{{aixServer1.name}}** (**A**) in the **Virtual server workspaces** table.
 
-6. Click the **VM actions** pull-down.
+    ![image](https://github.com/user-attachments/assets/125d2256-152a-4ea1-b6f1-af278294cddf)
 
-    ![](_attachments/VSI-InstanceDetails-Actions.png)
+8. Click the **VM actions** (**A**) pull-down.
+
+    ![image](https://github.com/user-attachments/assets/3146f888-bac0-4d29-90c5-60169efa46e6)
 
     Notice the actions that can be initiated. The actions available vary depending on the current state of the instance and the operating system of the instance.
 
@@ -62,20 +66,26 @@ An error is expected, as full access to the shared environment is **not** provid
 
         ![](_attachments/bigEllipses.png)
 
-7. Click anywhere on the main screen (away from the menu from step 6).
-8. Click the **Edit details** link.
+9. Click anywhere on the main screen (away from the menu from step 7).
+10. Click the **Edit details** (**A**) link.
 
-    ![](_attachments/VSI-InstanceDetails-EditDetails.png)
+    ![image](https://github.com/user-attachments/assets/3c232c93-421d-47a7-9c39-1a1bce200b5a)
 
     Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
 
-9. Click **Cancel** in the **Edit virtual server instance details** dialog.
+11. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog.
+    ![image](https://github.com/user-attachments/assets/8d0fdfe6-814f-4d22-a2c8-d75cbbb0745a)
+
 
 !!! Example "On your own"
     The preceding steps walked through two aspects of managing a single PowerVS instance with the AIX operating system. Explore the **Edit** options available for the VSIs running Linux and IBM i. Notice any differences?
 
-Before proceeding, take a few minutes exploring other aspects of managing PowerVS instances by using the IBM Cloud Portal. Detailed steps are not provided, but typically you can click the **Cancel** button to return to the instances detail page. A few things to try from any of the instances' detail pages:
+Before proceeding, take a few minutes exploring other aspects of managing PowerVS instances by using the IBM Cloud Portal. Detailed steps are not provided, but typically you can click the **Cancel** button to return to the instances detail page.<br>A few things to try from any of the instances' detail pages:
 
-- Click **Attach volume**. Notice how only existing volumes that are marked as **shareable** are displayed.
-- Click **Create volume**. Notice that it is now possible to add a **Storage volume** that uses a different tier of storage than the instance boot volume.
+- In **Attached volumes** section, click **Attach existing** (**A**). Notice how only existing volumes that are marked as **shareable** are displayed.
+  ![image](https://github.com/user-attachments/assets/77e5de15-487c-4014-84cb-032a83796739)
+
+- In **Attached volumes** section, click **Create volume**. Notice that it is now possible to add a **Storage volume** that uses a different tier of storage than the instance boot volume.
+  ![image](https://github.com/user-attachments/assets/2dcfebb5-37d1-4bb5-b95a-eca6bfb4d4af)
+
 - Click the **VM actions** drop-down menu and select **Capture and export**. From this dialog, the storage volumes can be exported to either the PowerVS service Image catalog or to IBM Cloud Object Storage. **Hint**: Business Partners should take note of the **Limited actions available during capture** information dialog that appears on the **Capture and export** page.
