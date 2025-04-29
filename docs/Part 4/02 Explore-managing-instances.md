@@ -69,13 +69,17 @@ An error is expected, as full access to the shared environment is **not** provid
 9. Click anywhere on the main screen (away from the menu from step 7).
 10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). From this dialog, the storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage. **Hint**: Business Partners should take note of the **Limited actions available during capture** information dialog that appears on the **Capture and export** page.
     ![image](https://github.com/user-attachments/assets/ad1edafb-f842-4a75-9f97-e314f44ef292)
-11. Click the **Edit details** (**A**) link.
+    
+12. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it.
+    ![image](https://github.com/user-attachments/assets/c59a5b74-4c0b-4987-acfc-4d5b0d33de03)
+
+14. Click the **Edit details** (**A**) link.
 
     ![image](https://github.com/user-attachments/assets/3c232c93-421d-47a7-9c39-1a1bce200b5a)
 
     Explore what instance configuration options can be modified. Depending on the running state of the instance, some options are not accessible. Note, changing the instance always requires the user to agree to the service terms.
 
-12. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog to close it.
+15. Click **Cancel** (**A**) in the **Edit virtual server instance details** dialog to close it.
     ![image](https://github.com/user-attachments/assets/8d0fdfe6-814f-4d22-a2c8-d75cbbb0745a)
 
 
