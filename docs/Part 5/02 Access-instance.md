@@ -16,7 +16,7 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
 
 2. Click the IBM Cloud Shell icon ![](_attachments/CloudShellIcon.png).
 
-    ![](_attachments/StartCloudShell-new.png)
+    ![image](https://github.com/user-attachments/assets/23ee972f-e405-4acf-a1cb-4fe35adeea3d)
 
     ??? Error "Get an error opening IBM Cloud Shell?"
 
