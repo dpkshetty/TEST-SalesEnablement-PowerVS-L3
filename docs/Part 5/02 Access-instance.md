@@ -14,7 +14,7 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
 
         If the browser window is narrow, this icon: ![](_attachments/SwitchAccountsIcon.png) appears instead of the current account name as shown in the previous screen capture.
 
-2. Click the IBM Cloud Shell icon ![](_attachments/CloudShellIcon.png).
+2. Click the IBM Cloud Shell icon ![](_attachments/CloudShellIcon.png) (**A**).
 
     ![image](https://github.com/user-attachments/assets/23ee972f-e405-4acf-a1cb-4fe35adeea3d)
 
