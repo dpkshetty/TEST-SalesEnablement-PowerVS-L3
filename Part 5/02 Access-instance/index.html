@@ -1416,31 +1416,43 @@
 <p>If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window. <a class="glightbox" href="../_attachments/CloudShellError.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/CloudShellError.png"></a></p>
 </details>
 </li>
+<li>
+<p>A new IBM Cloud shell window should open.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/a31652a0-b964-42b0-a8f3-f04e6ac10845" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a31652a0-b964-42b0-a8f3-f04e6ac10845"></a></p>
+</li>
 </ol>
 <p>Use the IBM Cloud Shell window that was opened in the next steps.</p>
-<ol start="3">
+<ol start="4">
 <li>
 <p>In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.</p>
-<p><a class="glightbox" href="../_attachments/part5_step10a.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/part5_step10a.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/9f3a6d46-a300-43d5-86f8-c847bf592766" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/9f3a6d46-a300-43d5-86f8-c847bf592766"></a></p>
 <div class="admonition tip">
 <p class="admonition-title">Did you record the file name and location?</p>
 <p>Earlier, when the key was downloaded the filename may have been different than <strong>ssh_private_key.pem</strong>. In the next steps, be sure to use the name the file was saved as when downloaded. If the file was saved with any special characters (e.g. <strong>ssh_private_key (1).pem</strong>) it is recommended to change the filename to something without any special characters to avoid issues when uploading the file to the IBM Cloud Shell environment.</p>
 </div>
-<p>Locate the <strong>.pem</strong> file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.</p>
-<p><a class="glightbox" href="../_attachments/part5_step10b.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/part5_step10b.png"></a></p>
 </li>
 <li>
-<p>Adjust the access permissions on the <strong>ssh_private_key.pem</strong> file by using the following command:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chmod 600 ssh_private_key.pem
+<p>Locate the <strong>.pem</strong> (<strong>A</strong>) file in the Downloads folder, select it and click <strong>Open</strong> (<strong>B</strong>) and wait for the transfer to finish.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/a087d79e-ceef-499f-988d-51c800a2ae5d" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a087d79e-ceef-499f-988d-51c800a2ae5d"></a></p>
+</li>
+<li>
+<p>A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete. Click <strong>X</strong> (<strong>A</strong>) to close the dialog.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/b06601a9-eb95-4732-8dd8-cfd7451c3e3c" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/b06601a9-eb95-4732-8dd8-cfd7451c3e3c"></a></p>
+</li>
+<li>
+<p>In the IBM Cloud shell, run the following command to adjust the access permissions on the <strong>ssh_private_key.pem</strong> file:</p>
+<p></p><div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>chmod 600 ssh_private_key.pem
 </code></pre></div>
+<br>
+<a class="glightbox" href="https://github.com/user-attachments/assets/217bd8ad-c700-42d1-9412-4c25da55c9b4" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/217bd8ad-c700-42d1-9412-4c25da55c9b4"></a>
 </li>
 <li>
 <p>You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting <strong><your_user_id></your_user_id></strong> for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/02%20Reserve/" target="_blank">Part 1 - Step 8</a>. If a prompt asks whether to continue connecting type <strong>Yes</strong> and then press Return or Enter. Ignore the message about the authenticity of the host not being established.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@150.239.207.227
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh -i ssh_private_key.pem &lt;your_user_id&gt;@150.239.228.4
 </code></pre></div>
 <div class="admonition info">
 <p class="admonition-title">Sample output</p>
-<p>Note, the image below shows a different filename for the ssh_private_key.pem file. <a class="glightbox" href="../_attachments/part5_step13.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/part5_step13.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/1ebcb724-e435-46ad-be2b-8e507f5fab4b" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/1ebcb724-e435-46ad-be2b-8e507f5fab4b"></a></p>
 </div>
 </li>
 <li>
@@ -1454,9 +1466,11 @@
 <p>All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.</p>
 </li>
 <li>
-<p>Close the SSH connection by running the <strong>exit</strong> command.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>exit
+<p>Close the SSH connection by running the <strong>exit</strong> command. Control will return back to the IBM Cloud shell.</p>
+<p></p><div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>exit
 </code></pre></div>
+<br>
+<a class="glightbox" href="https://github.com/user-attachments/assets/13e31e2b-2f97-4c8d-86ca-1cf7736db102" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/13e31e2b-2f97-4c8d-86ca-1cf7736db102"></a>
 </li>
 </ol>
 <p>To explore further, use the following public IP addresses to access the other VSIs:</p>
@@ -1470,16 +1484,19 @@
 <tbody>
 <tr>
 <td>AIX-VM</td>
-<td>150.239.207.227</td>
+<td>150.239.228.4</td>
 </tr>
 <tr>
 <td>Linux-VM</td>
-<td>150.239.207.226</td>
+<td>150.239.228.2</td>
 </tr>
 </tbody>
 </table>
 <p>Use the <code>ssh -i ssh_private_key.pem UserName@IPaddress</code> command to connect to the other servers. Be sure to replace <strong>UserName</strong> with the <strong>UserName</strong> field found in the TechZone reservation, and <strong>IPaddress</strong> with the instance's public IP address from the preceding table.</p>
-<p>At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in an IBM Cloud account where you have full access. </p></div>
+<div class="admonition note">
+<p class="admonition-title">Access to IBM i VSI</p>
+<p>At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in an IBM Cloud account where you have full access. </p>
+</div></div>
 
 
 
