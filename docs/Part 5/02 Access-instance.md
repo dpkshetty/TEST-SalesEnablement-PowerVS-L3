@@ -57,9 +57,10 @@ Use the IBM Cloud Shell window that was opened in the next steps.
     ```
 
     !!! info "Sample output"
+   
         ![image](https://github.com/user-attachments/assets/1ebcb724-e435-46ad-be2b-8e507f5fab4b)
 
-6. Try running a few OS-level commands by using the following commands.
+7. Try running a few OS-level commands by using the following commands.
 
     ```
     ls -laR
@@ -75,7 +76,7 @@ Use the IBM Cloud Shell window that was opened in the next steps.
 
     All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.
 
-7. Close the SSH connection by running the **exit** command. Control will return back to the IBM Cloud shell.
+8. Close the SSH connection by running the **exit** command. Control will return back to the IBM Cloud shell.
 
     ```
     exit
@@ -92,4 +93,6 @@ To explore further, use the following public IP addresses to access the other VS
 
 Use the ```ssh -i ssh_private_key.pem UserName@IPaddress``` command to connect to the other servers. Be sure to replace **UserName** with the **UserName** field found in the TechZone reservation, and **IPaddress** with the instance's public IP address from the preceding table.
 
-At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in an IBM Cloud account where you have full access. 
+!!! note "Access to IBM i VSI"
+
+    At this time, this environment does not allow users to access the VSI running IBM i. IBM i access is typically done using a terminal emulator and would require additional software and setup. If you need to demonstrate accessing an IBM i system, you will need to provision an instance in an IBM Cloud account where you have full access. 
