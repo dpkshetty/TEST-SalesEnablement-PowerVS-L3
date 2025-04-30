@@ -15,21 +15,24 @@ Virtual appliances in IBM Power Virtual Server are pre-configured virtual machin
 4. Click **View virtual servers** (**A**) to open up the virtual server instances view.
    ![image](https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46)
 
-6. Click **Virtual appliances** option in the side menu.
+6. Click **Virtual appliances** (**A**) option in the side menu.
 
-    ![](_attachments/VAMenu.png)
+    ![image](https://github.com/user-attachments/assets/5ba14c2f-c80c-43bf-b51a-b7eb7b30a901)
 
-7. Click **Create from catalog +**.
+7. Click **Create from catalog +** (**A**). A new browser window or tab opens all products in the catalog.
 
-    ![](_attachments/VAList.png)
+    ![image](https://github.com/user-attachments/assets/81eebe2f-74ce-4bdf-85ff-ef5160aa68aa)
 
-    A new browser tab opens to the IBM Cloud catalog. The currently available virtual appliances are displayed. As of July 2024, 2 virtual appliances are available in the IBM Cloud catalog for PowerVS.
+8. Navigate to the newly opened browser window or tab. Scroll down to **Deployment target** filter and select **Power Systems Virtual Server** (**A**).
+   ![image](https://github.com/user-attachments/assets/1bcde8ad-1e13-4db9-a716-6a0b60020254)
 
-    ![](_attachments/VAtiles.png)
+10. The currently available virtual appliances that can be deployed on PowerVS are displayed. As of April 2025, 2 virtual appliances are available: **FalconStor StorSafe VTL for PowerVS Cloud** and **Open XLC Compiler for AIX**.
+
+    ![image](https://github.com/user-attachments/assets/8a80141f-84c5-49ec-ab69-c7155d354a4d)
 
 8. Click the **FalconStor StorSafe VTL for PowerVS Cloud** tile.
 
-    ![](_attachments/VAtiles-FS.png)
+    ![image](https://github.com/user-attachments/assets/8fd77bc6-77f4-413e-b7b1-c96152e8dfcc)
 
     FalconStor StorSafe Virtual Tape Library (VTL) is a software solution that optimizes backup and restore to improve performance and significantly reduce backup storage costs, all without requiring changes to the existing requirement. With its integrated deduplication, the solution removes redundant copies of data, reduces capacity requirements, decreases storage costs, and minimizes replication and restore times. StorSafe VTL can be used with all leading backup solutions, enables both hybrid and cloud native backup, and supports both workload and tape migration to the cloud. 
 
