@@ -153,18 +153,18 @@ extra:
     atInstance: "AT-PowerVS-L3"
   aixServer1:
     name: "AIX-VM"
-    privateIP: "192.168.100.112"
-    publicIP: "150.239.207.227"
+    privateIP: "192.168.100.230"
+    publicIP: "150.239.228.4"
     additionalVolumeName: "aix-av1"
   linuxServer1:
     name: "Linux-VM"
-    privateIP: "192.168.100.173"
-    publicIP: "150.239.207.226"
+    privateIP: "192.168.100.223"
+    publicIP: "150.239.228.2"
     additionalVolumeName: "linux-av1"
   ibmiServer1:
     name: "IBMi-VM"
-    privateIP: "192.168.100.157"
-    publicIP: "150.239.207.228"
+    privateIP: "192.168.100.124"
+    publicIP: "150.239.228.3"
     additionalVolumeName: "ibmi-av1"
 
 
