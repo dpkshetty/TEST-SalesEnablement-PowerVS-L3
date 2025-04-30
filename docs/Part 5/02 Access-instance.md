@@ -22,26 +22,33 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
 
         If the following error occurs when attempting to open IBM Cloud Shell, fix it by either deleting the browser cookies for cloud.ibm.com and log back into cloud.ibm.com, or try using a private/incognito browser window. ![](_attachments/CloudShellError.png)
 
+3. A new IBM Cloud shell window should open.
+   ![image](https://github.com/user-attachments/assets/a31652a0-b964-42b0-a8f3-f04e6ac10845)
+
 Use the IBM Cloud Shell window that was opened in the next steps.
 
-3. In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.
+4. In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.
 
-    ![](_attachments/part5_step10a.png)
+    ![image](https://github.com/user-attachments/assets/9f3a6d46-a300-43d5-86f8-c847bf592766)
 
     !!! tip "Did you record the file name and location?"
     
         Earlier, when the key was downloaded the filename may have been different than **ssh_private_key.pem**. In the next steps, be sure to use the name the file was saved as when downloaded. If the file was saved with any special characters (e.g. **ssh_private_key (1).pem**) it is recommended to change the filename to something without any special characters to avoid issues when uploading the file to the IBM Cloud Shell environment.
 
-    Locate the **.pem** file in the Downloads folder and wait for the transfer to finish. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete.
+5. Locate the **.pem** (**A**) file in the Downloads folder, select it and click **Open** (**B**) and wait for the transfer to finish.
+   ![image](https://github.com/user-attachments/assets/a087d79e-ceef-499f-988d-51c800a2ae5d)
 
-    ![](_attachments/part5_step10b.png)
+7. A dialog box appears in the lower-right of the IBM Cloud Shell window when the upload is complete. Click **X** (**A**) to close the dialog.
 
+    ![image](https://github.com/user-attachments/assets/b06601a9-eb95-4732-8dd8-cfd7451c3e3c)
 
-4. Adjust the access permissions on the **ssh_private_key.pem** file by using the following command:
+4. In the IBM Cloud shell, run the following command to adjust the access permissions on the **ssh_private_key.pem** file:
 
     ```
     chmod 600 ssh_private_key.pem
     ```
+    <br>
+    ![image](https://github.com/user-attachments/assets/217bd8ad-c700-42d1-9412-4c25da55c9b4)
 
 5. You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting **<your_user_id>** for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/02%20Reserve/" target="_blank">Part 1 - Step 8</a>. If a prompt asks whether to continue connecting type **Yes** and then press Return or Enter. Ignore the message about the authenticity of the host not being established.
 
@@ -50,7 +57,7 @@ Use the IBM Cloud Shell window that was opened in the next steps.
     ```
 
     !!! info "Sample output"
-        Note, the image below shows a different filename for the ssh_private_key.pem file. ![](_attachments/part5_step13.png)
+        ![image](https://github.com/user-attachments/assets/1ebcb724-e435-46ad-be2b-8e507f5fab4b)
 
 6. Try running a few OS-level commands by using the following commands.
 
@@ -68,11 +75,13 @@ Use the IBM Cloud Shell window that was opened in the next steps.
 
     All of these commands are basic OS commands. If you are familiar with AIX or Linux, try out other commands. Remember, your permissions in the shared environment are limited. Administrative access is not provided.
 
-7. Close the SSH connection by running the **exit** command.
+7. Close the SSH connection by running the **exit** command. Control will return back to the IBM Cloud shell.
 
     ```
     exit
     ```
+    <br>
+    ![image](https://github.com/user-attachments/assets/13e31e2b-2f97-4c8d-86ca-1cf7736db102)
 
 To explore further, use the following public IP addresses to access the other VSIs:
 
