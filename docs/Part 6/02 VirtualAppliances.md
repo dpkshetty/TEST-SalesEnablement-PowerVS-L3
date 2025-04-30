@@ -1,13 +1,25 @@
 ??? Important "Important information about the demonstration environment!"
-    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).
 
-Virtual appliances are pre-configured virtual machine images that can easily be provisioned in an IBM Power Virtual Server (PowerVS) workspace. 
+Virtual appliances in IBM Power Virtual Server are pre-configured virtual machines designed to simplify the deployment and management of applications and services. Virtual appliance also allows ISVs to bring-your-own license model, where independent software vendors (ISV) can offer OVA (ISV software plus operating system of your choice) for quick deployment of IBM Power Virtual Server workloads. It is an appliance-as-a service that allows seamless management and metering of PowerVS. Software support is handled directly by the ISVs for virtual appliances.
 
-1. Click **Virtual appliances** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
+1. Change to the **2305900 - ITZ - ADHOC03** (**B**) account by using the drop-down switcher (**A**).
+   ![image](https://github.com/user-attachments/assets/0e344a3a-feb1-4bf0-87ce-9cd90a97db97)
+
+2. Navigate to `https://cloud.ibm.com/power/workspaces` (**A**) URL in the browser window to open the PowerVS workspaces view.
+   ![image](https://github.com/user-attachments/assets/da9a77fe-c7a8-4187-a391-b4e740a8cf46)
+
+3. Click **{{powerVS.serviceInstanceName}}** (**A**).
+   ![image](https://github.com/user-attachments/assets/9c6b8b7a-e371-40ea-a402-fc70e1f41b98)
+
+4. Click **View virtual servers** (**A**) to open up the virtual server instances view.
+   ![image](https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46)
+
+6. Click **Virtual appliances** option in the side menu.
 
     ![](_attachments/VAMenu.png)
 
-2. Click **Create from catalog +**.
+7. Click **Create from catalog +**.
 
     ![](_attachments/VAList.png)
 
@@ -15,7 +27,7 @@ Virtual appliances are pre-configured virtual machine images that can easily be 
 
     ![](_attachments/VAtiles.png)
 
-3. Click the **FalconStor StorSafe VTL for PowerVS Cloud** tile.
+8. Click the **FalconStor StorSafe VTL for PowerVS Cloud** tile.
 
     ![](_attachments/VAtiles-FS.png)
 
@@ -27,11 +39,11 @@ Virtual appliances are pre-configured virtual machine images that can easily be 
 
     After all required fields are defined, clients can provision the virtual appliance. The automation provisions the required virtual server instance by using a base image with the FaclonStor software already installed and configured. When complete, the FalconStor solution is ready to be used.
 
-4. Click **Catalog**.
+9. Click **Catalog**.
 
     ![](_attachments/VA-FS-BackLink.png)
 
-5. Click the **Open XLC Compiler for AIX** tile.
+10. Click the **Open XLC Compiler for AIX** tile.
 
     ![](_attachments/VAtiles-XLC.png)
 
