@@ -3271,65 +3271,57 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 </ol>
 <p>Recall, the virtual appliance catalog was opened in a new browser tab or window. When ready, close the current browser tab or window to return to the IBM Cloud Portal virtual appliances page.</p></div></section><section class="print-page" id="part%206-03%20sppsandserverplacementgroups"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
-<p>A shared processor pool (SPP) is a pool of processor capacity that is shared between a group of virtual server instances. Unlike a virtual server instance that has a dedicated and defined maximum amount of processing capacity, you can set the reserved cores in SPP that is available at the pool level. SPPs are used to control software licensing costs by limiting the number of processors an uncapped VSI can use.</p>
+<p>A shared processor pool is a pool of processor capacity used by a group of virtual server instances. Its reserved cores guarantee capacity at the pool level which allows individual virtual servers in the pool to use a dynamic amount of resources in a shared model, and can help reduce licensing costs.</p>
 <p>Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.</p>
 <ol>
 <li>
-<p>Click the <strong>Shared processor pools</strong> option in the side menu under the PowerVS-L3-2025 workspace.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPMenu.png"></a></p>
+<p>Click the <strong>Shared processor pools</strong> (<strong>A</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/dbfecb8a-9c0f-4591-8fe8-9cf9ebcee9e4" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/dbfecb8a-9c0f-4591-8fe8-9cf9ebcee9e4"></a></p>
 </li>
 <li>
-<p>Click <strong>Create pool +</strong></p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPtable.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPtable.png"></a></p>
+<p>Click <strong>Create pool +</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/87fbafcf-6fe6-42e3-aa53-6bd6b8f55262" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/87fbafcf-6fe6-42e3-aa53-6bd6b8f55262"></a></p>
 </li>
 <li>
-<p>Enter a name in the <strong>Name</strong> field and then click <strong>Continue</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPProvision1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPProvision1.png"></a></p>
+<p>Enter a name in the <strong>Name</strong> (<strong>A</strong>) field and then click <strong>Continue</strong> (<strong>B</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/a757051d-a6a1-4dde-87c4-26f0c7db4e7a" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a757051d-a6a1-4dde-87c4-26f0c7db4e7a"></a></p>
 </li>
 <li>
-<p>Select a <strong>machine type</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPProvision2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPProvision2.png"></a></p>
-</li>
-<li>
-<p>Specify the number of <strong>reserved cores</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPProvision3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPProvision3.png"></a></p>
-</li>
-<li>
-<p>Click <strong>Finish</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPProvision4.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPProvision4.png"></a></p>
+<p>Select a <strong>machine type</strong> (<strong>A</strong>) and specify the number of <strong>reserved cores</strong> (<strong>B</strong>). Reserved cores is the total number of cores reserved for the processor pool's usage. Click <strong>Finish</strong> (<strong>C</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/a325dcc5-33e7-4695-9900-09c88cee0725" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a325dcc5-33e7-4695-9900-09c88cee0725"></a></p>
 </li>
 </ol>
 <p>When actually provisioning an SPP, you would next accept the terms and conditions and create the SPP. After the SPP is provisioned, clients specify the SPP when a new VSI is created. </p>
 <ol start="7">
 <li>
-<p>Click <strong>Cancel</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPProvision5.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPProvision5.png"></a></p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click <strong>Cancel</strong> (<strong>A</strong>) to return back to the shared processor pools main view page.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/cf7ab3fb-eda0-43d7-88d2-e2c81f133e72" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/cf7ab3fb-eda0-43d7-88d2-e2c81f133e72"></a></p>
 </li>
 <li>
-<p>Click the <strong>Pool placement groups</strong> tab.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPPtablePPGtab.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPPtablePPGtab.png"></a></p>
-<p>Pool placement groups are a set of shared processor pools with a single colocation policy. The policy determines the host in which an SPP in the group is deployed in relation to others in the group.</p>
+<p>Click the <strong>Pool placement groups</strong> (<strong>A</strong>) tab.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/f9979d1a-0938-442f-9227-4149efd93c17" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/f9979d1a-0938-442f-9227-4149efd93c17"></a></p>
+<p>Pool placement groups are a set of shared processor pools with a single colocation policy, which determines the host in which a shared processor pool in the group is deployed in relation to others in the group.</p>
 <p>Learn more about pool placement groups <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP#configure-SPP-PG" target="_blank">here</a>.</p>
 </li>
 <li>
-<p>Click <strong>Create group +</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPP-PPG.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPP-PPG.png"></a></p>
+<p>Click <strong>Create group +</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/34a8ead6-fbfc-4ee7-97d3-78164e32a2bf" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/34a8ead6-fbfc-4ee7-97d3-78164e32a2bf"></a></p>
 </li>
 <li>
-<p>Enter a <strong>Name</strong> for the pool placement group.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPP-PPG-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPP-PPG-1.png"></a></p>
+<p>Enter a <strong>Name</strong> (<strong>A</strong>) for the pool placement group.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/c1b353c5-f30e-462d-bfbd-9ca5eacba765" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/c1b353c5-f30e-462d-bfbd-9ca5eacba765"></a></p>
 </li>
 <li>
-<p>Select the colocation policy of either <strong>same server</strong> or <strong>different server</strong>.</p>
+<p>Select the <strong>colocation policy</strong> (<strong>A</strong>) of either <strong>same server</strong> or <strong>different server</strong>.</p>
 <p>The <strong>same server</strong> option specifies that all VSIs in this placement group are placed on the same server. This is known as an <strong>affinity</strong> policy.</p>
 <p>The <strong>different server</strong> option specifies that all VSIs in this placement group are placed on different servers. This is also known as an <strong>anti-affinity</strong> policy.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPP-PPG-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPP-PPG-2.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/463a353d-b9a1-4854-b6dc-7cbf0e54f83b" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/463a353d-b9a1-4854-b6dc-7cbf0e54f83b"></a></p>
 </li>
 <li>
-<p>Click <strong>Cancel</strong></p>
-<p><a class="glightbox" href="../Part%206/_attachments/SPP-PPG-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SPP-PPG-3.png"></a></p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click <strong>Cancel</strong> (<strong>A</strong>) to return back to the shared processor pools main view page.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/2b0ef663-3269-44c1-909d-f8cf4a892f55" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/2b0ef663-3269-44c1-909d-f8cf4a892f55"></a></p>
 </li>
 </ol>
 <p>Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-04%20sshkeys"><div><details class="important">
