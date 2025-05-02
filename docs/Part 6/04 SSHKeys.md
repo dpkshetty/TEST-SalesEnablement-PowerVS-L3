@@ -24,6 +24,8 @@ Recall from the click through demonstrations to provision a virtual server insta
 3. In the **New SSH key** dialog, the user specifies a **Key name** (**A**) and then pastes the public key part of the SSH key previously created, in the **Public key** (**B**) textbox. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank">**How do I get a public key**</a> link provides information on how to generate a key on a Linux-based system.
    ![image](https://github.com/user-attachments/assets/38d6a72d-2ad0-4736-9a38-d902eb057d64)
 
-5. Click **Cancel**.
+5. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel** (**A**) to return back to the SSH keys page view.
+   ![image](https://github.com/user-attachments/assets/fbadb48f-f915-4b4d-b539-adc759889ba6)
+
 
 After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.
