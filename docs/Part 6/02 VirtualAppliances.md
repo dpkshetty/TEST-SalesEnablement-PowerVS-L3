@@ -36,24 +36,24 @@ Virtual appliances in IBM Power Virtual Server are pre-configured virtual machin
 
     FalconStor StorSafe Virtual Tape Library (VTL) is a software solution that optimizes backup and restore to improve performance and significantly reduce backup storage costs, all without requiring changes to the existing requirement. With its integrated deduplication, the solution removes redundant copies of data, reduces capacity requirements, decreases storage costs, and minimizes replication and restore times. StorSafe VTL can be used with all leading backup solutions, enables both hybrid and cloud native backup, and supports both workload and tape migration to the cloud. 
 
-    Review the provisioning page for FaclonStor StorSafe VTL for PowerVS Cloud. Notice the **Required input variables** and **Optional input variables** sections and the values that are used to configure the virtual appliance. These include parameters like the number of vCPUs, memory, and storage tier. Also note the **About** tab and links to additional information.
+    Review the provisioning page for FaclonStor StorSafe VTL for PowerVS Cloud. Notice the **Required input variables** and **Optional input variables** sections and the values that are used to configure the virtual appliance. These include parameters like the number of vCPUs, memory, and storage tier. Click the **About** (**A**) tab to get a summary of this virtual appliance along with links to additional information.
 
-    ![](_attachments/VA-FS-ProvisionPage.png)
+    ![image](https://github.com/user-attachments/assets/6dae703f-75f8-428d-ace8-44df1eb69dda)
 
     After all required fields are defined, clients can provision the virtual appliance. The automation provisions the required virtual server instance by using a base image with the FaclonStor software already installed and configured. When complete, the FalconStor solution is ready to be used.
 
-9. Click **Catalog**.
+9. Click **Catalog** (**A**) to return back to the PowerVS deployment target specific catalog view.
 
-    ![](_attachments/VA-FS-BackLink.png)
+    ![image](https://github.com/user-attachments/assets/35ef8931-ad3f-487b-a2f1-ca95d406fe62)
 
 10. Click the **Open XLC Compiler for AIX** tile.
 
-    ![](_attachments/VAtiles-XLC.png)
+    ![image](https://github.com/user-attachments/assets/983a7e31-eb06-4e80-b332-de07425f70ff)
 
     IBM® Open XL C/C++ for AIX is IBM’s next-generation C/C++ compiler that facilitates the creation and maintenance of applications that are written in C/C++ for IBM Power. Taking advantage of the Power10 architecture, IBM Open XL C/C++ for AIX can generate code that uses the capabilities of Power10 to maximize hardware utilization.
 
-    Explore the provisioning page and additional information available for the virtual appliance.
+    Explore the provisioning page and additional information available for this virtual appliance.
 
-    ![](_attachments/VA-XLC-ProvisionPage.png)
+    ![image](https://github.com/user-attachments/assets/6688bf63-47e9-4d4d-bd17-817b208354f7)
 
 Recall, the virtual appliance catalog was opened in a new browser tab or window. When ready, close the current browser tab or window to return to the IBM Cloud Portal virtual appliances page.
