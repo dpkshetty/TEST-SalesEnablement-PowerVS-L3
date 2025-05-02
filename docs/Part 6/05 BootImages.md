@@ -1,7 +1,9 @@
 ??? Important "Important information about the demonstration environment!"
-    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).
     
 Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.
+
+Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.
 
 1. Click the **Boot images** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
@@ -30,5 +32,3 @@ Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boo
     On the second **Import boot image** screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.
 
 3. Click **Cancel**.
-
-Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.
