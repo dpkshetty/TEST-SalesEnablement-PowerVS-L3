@@ -28,3 +28,5 @@ For this section of the demonstration guide, at the start of every activity, Ple
 4. Click **View virtual servers** (**A**) to open up the virtual server instances view.
    ![image](https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46)
 
+5. The Virtual Server Instances (VSI) view opens under the {{powerVS.serviceInstanceName}} workspace, displaying the three VSIs created so far.
+   ![image](https://github.com/user-attachments/assets/57563373-428c-4bb1-bba5-ab02205b6542)
