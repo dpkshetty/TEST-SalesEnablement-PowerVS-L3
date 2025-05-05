@@ -12,5 +12,7 @@ Specifically, explore each of the following categories in turn:
 - Event logs
 - Additional products and services
 
-For this section of the demonstration guide, at the start of every activity, ensure that you are in the {{powerVS.serviceInstanceName}} workspace. To do so, follow the steps below...
+## Setting the workspace to {{powerVS.serviceInstanceName}}
+
+For this section of the demonstration guide, at the start of every activity, Please ensure the workspace is set to {{powerVS.serviceInstanceName}}. To do so, follow the steps below...
 
