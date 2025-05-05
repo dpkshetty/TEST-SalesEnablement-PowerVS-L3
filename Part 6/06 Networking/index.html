@@ -98,6 +98,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#viewing-and-configuring-network-subnets" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -901,6 +906,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Networking
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -910,6 +926,41 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-and-configuring-network-subnets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing and configuring network subnets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-security-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network security groups
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1401,6 +1452,32 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#viewing-and-configuring-network-subnets" class="md-nav__link">
+    <span class="md-ellipsis">
+      Viewing and configuring network subnets
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-security-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network security groups
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1418,50 +1495,70 @@
 
 <div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
-<p>A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.</p>
+<p>A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered in this activity. Learn more about IBM PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.</p>
+<h2 id="viewing-and-configuring-network-subnets">Viewing and configuring network subnets</h2>
+<p>Clients can configure a private network subnet when they create an IBM Power Virtual Server, providing a subnet name and specifying a Classless Inter-Domain Routing (CIDR). How the private network subnet is configured, depends on the networking configuration of the Power Virtual Server Workspace.</p>
 <ol>
 <li>
-<p>Click the <strong>Subnets</strong> option in the side menu under the PowerVS-L3-2025 workspace. Expand the <strong>Networking</strong> section if not already expanded.</p>
-<p><a class="glightbox" href="../_attachments/NetworkingMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/NetworkingMenu.png"></a></p>
-<p>Two subnets are listed. </p>
-<p><a class="glightbox" href="../_attachments/Subnets-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/Subnets-1.png"></a></p>
-<p>One is the public subnet for the workspace: public-192_168_222_192-29-VLAN_2056 . This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned.  </p>
-<p>The private subnet, private-powervs-2025 was created before the first VSI was provisioned. In the next steps, explore how to create a private subnet.</p>
+<p>Expand the <strong>Networking</strong> (<strong>A</strong>) section and click the <strong>Subnets</strong> (<strong>B</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/e37dd944-57b8-4ff6-88b2-dec9d707413a" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/e37dd944-57b8-4ff6-88b2-dec9d707413a"></a></p>
 </li>
 <li>
-<p>Click <strong>Create subnet +</strong>.</p>
-<p><a class="glightbox" href="../_attachments/SubnetsCreate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SubnetsCreate.png"></a></p>
+<p>Two subnets are listed. One is the public subnet, public-192_168_222_224-29-VLAN_2060 for the workspace PowerVS-L3-2025. This public subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned. The private subnet, private-powervs-2025 was created before the first VSI was provisioned.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/f3839d2e-482e-4fd9-89e2-c68517ccba5e" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/f3839d2e-482e-4fd9-89e2-c68517ccba5e"></a></p>
+<p>In the next steps, explore how to create a private subnet.</p>
 </li>
 <li>
-<p>Click <strong>Cancel</strong>.</p>
+<p>Click <strong>Create subnet +</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/8e853d95-ef1a-4eb0-b918-d859025d592f" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/8e853d95-ef1a-4eb0-b918-d859025d592f"></a></p>
+</li>
+<li>
 <p>To create a new subnet, the details about the subnet need to be specified. </p>
-<p>These details include a name and:</p>
+<p>These details include:</p>
 <ul>
-<li>Classless Inter-Domain Routing (CIDR)</li>
+<li><strong>Name</strong></li>
 </ul>
-<p>CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.</p>
+<p>The name of the subnet. Enter a unique name for the subnet.</p>
 <ul>
-<li>Gateway</li>
+<li><strong>Classless Inter-Domain Routing (CIDR)</strong></li>
+</ul>
+<p>CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask. For the sake of this demonstration enter <code>192.168.200.14/24</code> in CIDR field. The <strong>Gateway</strong> and <strong>IP ranges</strong> fields are auto-populated based on the entered CIDR value.</p>
+<ul>
+<li><strong>Gateway</strong></li>
 </ul>
 <p>The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.</p>
 <ul>
-<li>IP ranges</li>
+<li><strong>IP ranges</strong></li>
 </ul>
-<p>The IP range allows the user to specify either the full CIDR range as being available or a subset.</p>
+<p>The <strong>IP range</strong> allows the user to specify either the full CIDR range as being available or a subset.</p>
 <ul>
-<li>Domain Name Server (DNS)</li>
+<li><strong>Domain Name Server (DNS)</strong></li>
 </ul>
-<p>The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.</p>
+<p>The DNS server is used for name resolution for the VSIs in the subnet. Up to 20 DNS servers can be specified.</p>
 <ul>
-<li>Maximum Transmission Unit (MTU)</li>
+<li><strong>Maximum Transmission Unit (MTU)</strong></li>
 </ul>
 <p>MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.</p>
-<p><a class="glightbox" href="../_attachments/SubnetsCreate-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/SubnetsCreate-1.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/6fcab035-3700-4bd1-ad09-abe2e66f08b9" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/6fcab035-3700-4bd1-ad09-abe2e66f08b9"></a></p>
+<p>Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.</p>
+</li>
+<li>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click <strong>Cancel</strong> (<strong>A</strong>) to return back to the subnets list page.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/cdbcc0d4-43ef-4b7b-8a1a-52cacee48163" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/cdbcc0d4-43ef-4b7b-8a1a-52cacee48163"></a></p>
 </li>
 </ol>
-<p>Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.</p></div>
+<p>Learn more about configuring subnets <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-subnet" target="_blank">here</a>.</p>
+<h2 id="network-security-groups">Network security groups</h2>
+<p>A network security group (NSG) is used to define security rules to allow or deny specific network traffic that is related to resources provisioned in an IBM Power® Virtual Server workspace. You can create NSGs in the Power Virtual Server environment to inspect and filter network traffic between resources in Power Virtual Server workspaces.</p>
+<ol>
+<li>
+<p>Expand the <strong>Networking</strong> (<strong>A</strong>) section and click the <strong>Network security groups</strong> (<strong>B</strong>) option in the side menu under the PowerVS-L3-2025 workspace. You will see an empty list as the NSG feature is not enabled and used in this demonstration.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/5880d716-6a67-4402-b64c-fe31e691747e" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/5880d716-6a67-4402-b64c-fe31e691747e"></a></p>
+<p>Learn more about NSG <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-nsg" target="_blank">here</a>.</p>
+</li>
+</ol></div>
 
 
 
