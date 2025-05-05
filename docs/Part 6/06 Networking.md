@@ -7,7 +7,7 @@ A good network design for any cloud deployment is critical. This includes IBM Po
 
     ![image](https://github.com/user-attachments/assets/e37dd944-57b8-4ff6-88b2-dec9d707413a)
 
-2. Two subnets are listed. One is the public subnet for the workspace: {{powerVS.publicSubnet}}. This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned. The private subnet, {{powerVS.privateSubnet}} was created before the first VSI was provisioned.
+2. Two subnets are listed. One is the public subnet, {{powerVS.publicSubnet}} for the workspace {{powerVS.serviceInstanceName}}. This public subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned. The private subnet, {{powerVS.privateSubnet}} was created before the first VSI was provisioned.
 
     ![image](https://github.com/user-attachments/assets/cf70c640-f8dc-4e8d-b248-4bf7dd30254f)
 
