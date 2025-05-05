@@ -35,7 +35,7 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
       
         ![image](https://github.com/user-attachments/assets/3b207478-1414-4aa5-8537-2ceedb168824)
       
-        <hr>
+        <hr width="500px;">
       
         ![image](https://github.com/user-attachments/assets/0d6e2cbb-ec9d-4229-af11-0457d28f7365)
 
