@@ -32,6 +32,10 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
     * A storage volume must be assigned to a storage pool. By default, the volume is assigned to any pool that has sufficient capacity. The volume can be controlled by affinity rules. The volume can be assigned to an affinity pool or an anti-affinity pool. Affinity can be based on either other storage volumes or upon virtual server instances (VSIs), also known as virtual machines (VMs). If a storage volume is marked with an affinity policy, it is created in the same pool as other volumes with which it needs to have affinity. An affinity policy is typically used for cloning and snapshots. If a storage volume is marked with an anti-affinity policy, it is created in a different pool from other volumes with which it needs anti-affinity. The anti-affinity policy is typically used for HA and logical mirroring of volumes.
 
     * The affinity and anti-affinity object can be either another storage volume or a VSI. Depending on the affinity or anti-affinity object selection, the menu is populated with the existing volumes or VSIs that the policy is to be applied with or against. Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
+      
+      ![image](https://github.com/user-attachments/assets/3b207478-1414-4aa5-8537-2ceedb168824)
+      <hr>
+      ![image](https://github.com/user-attachments/assets/0d6e2cbb-ec9d-4229-af11-0457d28f7365)
 
     * Volume replication with Global Replication Services (GRS) when enabled, provides asynchronous replication at the storage level to maintain a consistent and recoverable copy of the data at the specified secondary location. Learn more about GRS [here](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started-GRS){target="_blank"}.
 
