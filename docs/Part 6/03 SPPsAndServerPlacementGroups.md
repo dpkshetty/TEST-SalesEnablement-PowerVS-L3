@@ -3,8 +3,6 @@
     
 A shared processor pool is a pool of processor capacity used by a group of virtual server instances. Its reserved cores guarantee capacity at the pool level which allows individual virtual servers in the pool to use a dynamic amount of resources in a shared model, and can help reduce licensing costs.
 
-Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.
-
 1. Click the **Shared processor pools** (**A**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![image](https://github.com/user-attachments/assets/dbfecb8a-9c0f-4591-8fe8-9cf9ebcee9e4)
@@ -56,3 +54,5 @@ When actually provisioning an SPP, you would next accept the terms and condition
     ![image](https://github.com/user-attachments/assets/2b0ef663-3269-44c1-909d-f8cf4a892f55)
     
 Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.
+
+Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.
