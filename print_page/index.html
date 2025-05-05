@@ -3274,7 +3274,6 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
 <p>A shared processor pool is a pool of processor capacity used by a group of virtual server instances. Its reserved cores guarantee capacity at the pool level which allows individual virtual servers in the pool to use a dynamic amount of resources in a shared model, and can help reduce licensing costs.</p>
-<p>Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.</p>
 <ol>
 <li>
 <p>Click the <strong>Shared processor pools</strong> (<strong>A</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
@@ -3324,61 +3323,67 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <p><a class="glightbox" href="https://github.com/user-attachments/assets/2b0ef663-3269-44c1-909d-f8cf4a892f55" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/2b0ef663-3269-44c1-909d-f8cf4a892f55"></a></p>
 </li>
 </ol>
-<p>Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-04%20sshkeys"><div><details class="important">
+<p>Affinity and anti-affinity policies are used to help build high availability (HA) and disaster recovery (DR) deployments. Learn more about High Availability (HA) and Disaster Recovery (DR) options in PowerVS <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-ha-dr" target="_blank">here</a>.</p>
+<p>Learn more about SPPs <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-SPP" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-04%20sshkeys"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
-<p>Secure Shell also known as Secure Socket Shell (SSH) is a network protocol that is used to securely control access to computers over an unsecure network. </p>
-<p>Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.</p>
-<p>Recall from the click through demonstrations to provision a virtual server instance, the PowerVS-key was specified as the SSH key for the server. The PowerVS-key was added to the workspace before those instances were created. </p>
+<p>Secure Shell also known as Secure Socket Shell (SSH) is a network protocol that is used to securely control access to computers over an unsecure network. In simple words, SSH is a secure way to remotely access and manage computers, encrypting your data to keep it safe from eavesdroppers. It's like having a private, encrypted chat with another computer.</p>
+<p>Recall from the click through demonstrations to provision a virtual server instance, the <code>PowerVS-key</code> was specified as the SSH key for the server. The PowerVS-key was added to the workspace before those instances were created.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>It is unlikely you would demonstrate this aspect of the PowerVS offering during a client demonstration unless you had a very targeted and technical audience. It is add here to provide you a complete understanding of the offering and what is required to provision and manage a PowerVS environment.</p>
+<p>It is unlikely you would demonstrate this aspect of the PowerVS offering during a client demonstration unless you had a very targeted and technical audience. It is added here to provide you a complete understanding of the offering and what is required to provision and manage a PowerVS environment.</p>
 </div>
 <ol>
 <li>
-<p>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2025 workspace.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SSHKeysMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SSHKeysMenu.png"></a></p>
+<p>Click the <strong>SSH keys</strong> (<strong>A</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/182de330-fb6c-4d54-b21d-54e88e0c9215" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/182de330-fb6c-4d54-b21d-54e88e0c9215"></a></p>
 </li>
 <li>
-<p>Click <strong>Create SSH key</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SSHKeysList.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SSHKeysList.png"></a></p>
-<p>The use of the term <strong>Create</strong> is a misnomer. This step loads the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/SSHKeysCreate.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/SSHKeysCreate.png"></a></p>
-<p>In the <strong>New SSH key</strong> dialog, the user specifies a name and then pastes the public key part of the SSH key previously created. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank"><strong>How do I get a public key</strong></a> link provides information on how to generate a key on a Linux-based system.</p>
+<p>Click <strong>Create SSH key</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/3a04d4fe-7cd9-42ca-896a-ec5918b402d3" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/3a04d4fe-7cd9-42ca-896a-ec5918b402d3"></a></p>
+<p>The use of the term <strong>Create</strong> is a misnomer. This step provides the ability to upload the public part of an existing SSH key into the PowerVS workspace. The key can then be pushed to VSIs provisioned in the environment and used to access those VSIs.   </p>
 </li>
 <li>
-<p>Click <strong>Cancel</strong>.</p>
+<p>In the <strong>New SSH key</strong> dialog, the user specifies a <strong>Key name</strong> (<strong>A</strong>) and then pastes the public key part of the SSH key previously created, in the <strong>Public key</strong> (<strong>B</strong>) textbox. The <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-create-vm#ssh-setup" target="_blank"><strong>How do I get a public key</strong></a> link provides information on how to generate a key on a Linux-based system.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/38d6a72d-2ad0-4736-9a38-d902eb057d64" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/38d6a72d-2ad0-4736-9a38-d902eb057d64"></a></p>
+</li>
+<li>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click <strong>Cancel</strong> (<strong>A</strong>) to return back to the SSH keys page view.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/fbadb48f-f915-4b4d-b539-adc759889ba6" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/fbadb48f-f915-4b4d-b539-adc759889ba6"></a></p>
 </li>
 </ol>
-<p>After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.</p></div></section><section class="print-page" id="part%206-05%20bootimages"><div><details class="important">
+<p>After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.</p>
+<p>Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-05%20bootimages"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
 <p>Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.</p>
 <ol>
 <li>
 <p>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2025 workspace.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/BootImageMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/BootImageMenu.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/3f2c8118-2921-44e6-a71a-a3ed547d910d" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/3f2c8118-2921-44e6-a71a-a3ed547d910d"></a></p>
 <p>Notice the existing 3 boot images in the list.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/BootImagesList.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/BootImagesList.png"></a></p>
-<p>These 3 boot images map are used by the 3 VSIs running in this demonstration environment. The <strong>Active</strong> status means that the image is actively used by a running VSI.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/a4622424-0654-43dd-8ee0-ba214c684d0b" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a4622424-0654-43dd-8ee0-ba214c684d0b"></a></p>
+<p>These 3 boot images are used by the 3 VSIs running in this demonstration environment. The <strong>Active</strong> status means that the image is actively used by a running VSI.</p>
 </li>
 <li>
 <p>Click <strong>Import image +</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/BootImagesImport.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/BootImagesImport.png"></a></p>
-<p>PowerVS allows clients to add their own boot images to their PowerVS workspace. Only AIX, IBM i, and Linux on IBM Power images are supported. To add an image to the PowerVS workspace image catalog, the image must first be uploaded to a bucket in IBM Cloud Object Storage (COS). Supported image file types include: .ova, .ova.gz, .tar, .tar.gz, and .tgz.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/BootImagesImport-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/BootImagesImport-1.png"></a></p>
-<p>To access the image in COS the file name, bucket name, hash-based message authentication code (HMAC) access key, and secret access keys must be specified. Learn more about COS <a href="https://cloud.ibm.com/objectstorage" target="_blank">here</a><a>. After these fields are specified and the user clicks <strong>Next</strong>, other parameters need to be provided for the boot image. </a></p>
-<p><a class="glightbox" href="../Part%206/_attachments/BootImagesImport-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/BootImagesImport-2.png"></a></p>
-<div class="admonition warning">
-<p class="admonition-title">You are not able to navigate to this screen.</p>
-</div>
-<p>On the second <strong>Import boot image</strong> screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/6a20f060-6168-4bf2-af96-c83d13922e7d" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/6a20f060-6168-4bf2-af96-c83d13922e7d"></a></p>
 </li>
 <li>
-<p>Click <strong>Cancel</strong>.</p>
+<p>PowerVS allows clients to add their own boot images to their PowerVS workspace. Only AIX, IBM i, and Linux on IBM Power images are supported. To add an image to the PowerVS workspace image catalog, the image must first be uploaded to a bucket in IBM Cloud Object Storage (COS). Supported image file types include: .ova, .ova.gz, .tar, .tar.gz, and .tgz. To access the image in COS the file name, bucket name, hash-based message authentication code (HMAC) access key, and secret access keys must be specified. Learn more about COS <a href="https://cloud.ibm.com/objectstorage" target="_blank">here</a><a>.</a></p>
 </li>
+<li>
+<p>You are now in the page where you need to enter the <strong>Source</strong> image details. Select an Image OS and Region and enter some temporary text in the remaining fields in order to proceed to the next page. After all these fields are specified <strong>Next</strong> button gets enabled. Click <strong>Next</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/0e73b473-bb3e-4481-8fa1-36e049bc3c83" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/0e73b473-bb3e-4481-8fa1-36e049bc3c83"></a></p>
+</li>
+<li>
+<p>You are now in the page where you need to enter the <strong>Destintion</strong> image details. Enter some temporary text for Custom image name, select a storage tier and storage pool. Click <strong>Import Image</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/f6e4d934-be5d-4a30-a53e-494fa1f59546" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/f6e4d934-be5d-4a30-a53e-494fa1f59546"></a></p>
+</li>
+<li>
+<li>Click <strong>Cancel</strong>.</li>
 </ol>
 <p>Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-06%20networking"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>

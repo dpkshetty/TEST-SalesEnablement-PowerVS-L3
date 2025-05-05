@@ -1397,32 +1397,34 @@
 
 <div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
 <p>Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.</p>
 <ol>
 <li>
 <p>Click the <strong>Boot images</strong> option in the side menu under the PowerVS-L3-2025 workspace.</p>
-<p><a class="glightbox" href="../_attachments/BootImageMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/BootImageMenu.png"></a></p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/3f2c8118-2921-44e6-a71a-a3ed547d910d" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/3f2c8118-2921-44e6-a71a-a3ed547d910d"></a></p>
 <p>Notice the existing 3 boot images in the list.</p>
-<p><a class="glightbox" href="../_attachments/BootImagesList.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/BootImagesList.png"></a></p>
-<p>These 3 boot images map are used by the 3 VSIs running in this demonstration environment. The <strong>Active</strong> status means that the image is actively used by a running VSI.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/a4622424-0654-43dd-8ee0-ba214c684d0b" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/a4622424-0654-43dd-8ee0-ba214c684d0b"></a></p>
+<p>These 3 boot images are used by the 3 VSIs running in this demonstration environment. The <strong>Active</strong> status means that the image is actively used by a running VSI.</p>
 </li>
 <li>
 <p>Click <strong>Import image +</strong>.</p>
-<p><a class="glightbox" href="../_attachments/BootImagesImport.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/BootImagesImport.png"></a></p>
-<p>PowerVS allows clients to add their own boot images to their PowerVS workspace. Only AIX, IBM i, and Linux on IBM Power images are supported. To add an image to the PowerVS workspace image catalog, the image must first be uploaded to a bucket in IBM Cloud Object Storage (COS). Supported image file types include: .ova, .ova.gz, .tar, .tar.gz, and .tgz.</p>
-<p><a class="glightbox" href="../_attachments/BootImagesImport-1.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/BootImagesImport-1.png"></a></p>
-<p>To access the image in COS the file name, bucket name, hash-based message authentication code (HMAC) access key, and secret access keys must be specified. Learn more about COS <a href="https://cloud.ibm.com/objectstorage" target="_blank">here</a><a>. After these fields are specified and the user clicks <strong>Next</strong>, other parameters need to be provided for the boot image. </a></p>
-<p><a class="glightbox" href="../_attachments/BootImagesImport-2.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../_attachments/BootImagesImport-2.png"></a></p>
-<div class="admonition warning">
-<p class="admonition-title">You are not able to navigate to this screen.</p>
-</div>
-<p>On the second <strong>Import boot image</strong> screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/6a20f060-6168-4bf2-af96-c83d13922e7d" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/6a20f060-6168-4bf2-af96-c83d13922e7d"></a></p>
 </li>
 <li>
-<p>Click <strong>Cancel</strong>.</p>
+<p>PowerVS allows clients to add their own boot images to their PowerVS workspace. Only AIX, IBM i, and Linux on IBM Power images are supported. To add an image to the PowerVS workspace image catalog, the image must first be uploaded to a bucket in IBM Cloud Object Storage (COS). Supported image file types include: .ova, .ova.gz, .tar, .tar.gz, and .tgz. To access the image in COS the file name, bucket name, hash-based message authentication code (HMAC) access key, and secret access keys must be specified. Learn more about COS <a href="https://cloud.ibm.com/objectstorage" target="_blank">here</a><a>.</a></p>
 </li>
+<li>
+<p>You are now in the page where you need to enter the <strong>Source</strong> image details. Select an Image OS and Region and enter some temporary text in the remaining fields in order to proceed to the next page. After all these fields are specified <strong>Next</strong> button gets enabled. Click <strong>Next</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/0e73b473-bb3e-4481-8fa1-36e049bc3c83" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/0e73b473-bb3e-4481-8fa1-36e049bc3c83"></a></p>
+</li>
+<li>
+<p>You are now in the page where you need to enter the <strong>Destintion</strong> image details. Enter some temporary text for Custom image name, select a storage tier and storage pool. Click <strong>Import Image</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/f6e4d934-be5d-4a30-a53e-494fa1f59546" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/f6e4d934-be5d-4a30-a53e-494fa1f59546"></a></p>
+</li>
+<li>
+<li>Click <strong>Cancel</strong>.</li>
 </ol>
 <p>Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.</p></div>
 
