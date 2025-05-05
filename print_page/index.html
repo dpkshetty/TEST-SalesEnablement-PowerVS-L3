@@ -3239,9 +3239,10 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
                         <h1 class='nav-section-title' id='section-part-6-explore-other-powervs-topics'>
                             Part 6 - Explore other PowerVS topics <a class='headerlink' href='#section-part-6-explore-other-powervs-topics' title='Permanent link'>↵</a>
                         </h1>
-                        <section class="print-page" id="part%206-01%20introduction"><div><p>Mentioned earlier throughout this Level 3 course are the variety of features available for managing PowerVS instances after the infrastructure and services are deployed. The ability to customize and scale these environments post-provisioning are precisely the <em>cloud</em> benefits that draw clients toward an investment in PowerVS. Next, dive deeper into the following advanced topics.</p>
+                        <section class="print-page" id="part%206-01%20introduction"><h1 id="part%206-01%20introduction-introduction">Introduction</h1><div><p>Mentioned earlier throughout this Level 3 course are the variety of features available for managing PowerVS instances after the infrastructure and services are deployed. The ability to customize and scale these environments post-provisioning are precisely the <em>cloud</em> benefits that draw clients toward an investment in PowerVS. Next, dive deeper into the following advanced topics.</p>
 <p>Specifically, explore each of the following categories in turn: </p>
 <ul>
+<li>Dedicated hosts</li>
 <li>Virtual appliances</li>
 <li>Shared processor pools and server placement groups</li>
 <li>SSH keys</li>
@@ -3250,11 +3251,9 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 <li>Storage volumes</li>
 <li>Event logs</li>
 <li>Additional products and services</li>
-</ul></div></section><section class="print-page" id="part%206-02%20virtualappliances"><div><details class="important">
-<summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
-</details>
-<p>Virtual appliances in IBM Power Virtual Server are pre-configured virtual machines designed to simplify the deployment and management of applications and services. Virtual appliance also allows ISVs to bring-your-own license model, where independent software vendors (ISV) can offer OVA (ISV software plus operating system of your choice) for quick deployment of IBM Power Virtual Server workloads. It is an appliance-as-a service that allows seamless management and metering of PowerVS. Software support is handled directly by the ISVs for virtual appliances.</p>
+</ul>
+<h2 id="part%206-01%20introduction-setting-the-workspace-to-powervs-l3-2025">Setting the workspace to PowerVS-L3-2025</h2>
+<p>For this section of the demonstration guide, at the start of every activity, Please ensure the workspace is set to PowerVS-L3-2025. To do so, follow the steps below...</p>
 <ol>
 <li>
 <p>Change to the <strong>2305900 - ITZ - ADHOC03</strong> (<strong>B</strong>) account by using the drop-down switcher (<strong>A</strong>).
@@ -3273,7 +3272,17 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
    <a class="glightbox" href="https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46"></a></p>
 </li>
 <li>
-<p>Click <strong>Virtual appliances</strong> (<strong>A</strong>) option in the side menu.</p>
+<p>The Virtual Server Instances (VSI) view opens under the PowerVS-L3-2025 workspace, displaying the three VSIs created so far.
+   <a class="glightbox" href="https://github.com/user-attachments/assets/57563373-428c-4bb1-bba5-ab02205b6542" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/57563373-428c-4bb1-bba5-ab02205b6542"></a></p>
+</li>
+</ol></div></section><section class="print-page" id="part%206-02%20virtualappliances"><div><details class="important">
+<summary>Important information about the demonstration environment!</summary>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
+</details>
+<p>Virtual appliances in IBM Power Virtual Server are pre-configured virtual machines designed to simplify the deployment and management of applications and services. Virtual appliance also allows ISVs to bring-your-own license model, where independent software vendors (ISV) can offer OVA (ISV software plus operating system of your choice) for quick deployment of IBM Power Virtual Server workloads. It is an appliance-as-a service that allows seamless management and metering of PowerVS. Software support is handled directly by the ISVs for virtual appliances.</p>
+<ol>
+<li>
+<p>Click <strong>Virtual appliances</strong> (<strong>A</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
 <p><a class="glightbox" href="https://github.com/user-attachments/assets/5ba14c2f-c80c-43bf-b51a-b7eb7b30a901" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/5ba14c2f-c80c-43bf-b51a-b7eb7b30a901"></a></p>
 </li>
 <li>
