@@ -2,6 +2,7 @@ Mentioned earlier throughout this Level 3 course are the variety of features ava
 
 Specifically, explore each of the following categories in turn: 
 
+- Dedicated hosts
 - Virtual appliances
 - Shared processor pools and server placement groups
 - SSH keys
