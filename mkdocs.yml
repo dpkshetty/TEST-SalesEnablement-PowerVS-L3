@@ -148,8 +148,7 @@ extra:
     privateSubnetCIDR: "192.168.100.0/24"
     privateSubnetGW: "192.168.100.15"
     privateSubnetDNS: "127.0.0.1"
-    publicSubnet: "public-192_168_222_192-29-VLAN_2056
-"
+    publicSubnet: "public-192_168_222_224-29-VLAN_2060"
     monitoringInstance: "PowerVS-L3-Monitoring"
     atInstance: "AT-PowerVS-L3"
   aixServer1:
