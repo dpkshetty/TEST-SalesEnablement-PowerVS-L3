@@ -11,3 +11,6 @@ Specifically, explore each of the following categories in turn:
 - Storage volumes
 - Event logs
 - Additional products and services
+
+For this section of the demonstration guide, ensure that you are in the XXXX workspace. To do so, follow the steps below...
+
