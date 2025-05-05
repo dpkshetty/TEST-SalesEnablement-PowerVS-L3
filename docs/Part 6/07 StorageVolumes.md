@@ -23,7 +23,7 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     * The size of a volume can range from 1 Gigabyte (GB) up to 238,705 GB. Storage volumes can be increased after they are provisioned but NOT decreased.
 
-    ![image](https://github.com/user-attachments/assets/86297630-640d-417e-8dcd-657db5378406)
+        ![image](https://github.com/user-attachments/assets/86297630-640d-417e-8dcd-657db5378406)
 
     The second set of parameters that need to be specified for a storage volume relates to the volumes shareability, storage pool, affinity rules, and volume replication.
 
@@ -35,7 +35,7 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     * Volume replication with Global Replication Services (GRS) when enabled, provides asynchronous replication at the storage level to maintain a consistent and recoverable copy of the data at the specified secondary location. Learn more about GRS [here](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started-GRS){target="_blank"}.
 
-    ![image](https://github.com/user-attachments/assets/2c2b899c-e5e2-46e4-9ff6-5a08a1c05a35)
+        ![image](https://github.com/user-attachments/assets/2c2b899c-e5e2-46e4-9ff6-5a08a1c05a35)
 
 5. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel (A)** to return back to the storage volumes list page.
 
