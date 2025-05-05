@@ -34,7 +34,9 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
     * The affinity and anti-affinity object can be either another storage volume or a VSI. Depending on the affinity or anti-affinity object selection, the menu is populated with the existing volumes or VSIs that the policy is to be applied with or against. Learn more about affinity and anti-affinity policies <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-powervs-faqs#affinity">here</a>.
       
       ![image](https://github.com/user-attachments/assets/3b207478-1414-4aa5-8537-2ceedb168824)
+      
       <hr>
+      
       ![image](https://github.com/user-attachments/assets/0d6e2cbb-ec9d-4229-af11-0457d28f7365)
 
     * Volume replication with Global Replication Services (GRS) when enabled, provides asynchronous replication at the storage level to maintain a consistent and recoverable copy of the data at the specified secondary location. Learn more about GRS [here](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-getting-started-GRS){target="_blank"}.
