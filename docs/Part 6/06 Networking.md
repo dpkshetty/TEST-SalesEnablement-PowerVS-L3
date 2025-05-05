@@ -49,4 +49,6 @@ A good network design for any cloud deployment is critical. This includes IBM Po
 
 Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.
 
-5. 
+5. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel** (**A**) to return back to the subnets list page.
+   ![image](https://github.com/user-attachments/assets/cdbcc0d4-43ef-4b7b-8a1a-52cacee48163)
+
