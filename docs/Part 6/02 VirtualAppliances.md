@@ -3,23 +3,11 @@
 
 Virtual appliances in IBM Power Virtual Server are pre-configured virtual machines designed to simplify the deployment and management of applications and services. Virtual appliance also allows ISVs to bring-your-own license model, where independent software vendors (ISV) can offer OVA (ISV software plus operating system of your choice) for quick deployment of IBM Power Virtual Server workloads. It is an appliance-as-a service that allows seamless management and metering of PowerVS. Software support is handled directly by the ISVs for virtual appliances.
 
-1. Change to the **2305900 - ITZ - ADHOC03** (**B**) account by using the drop-down switcher (**A**).
-   ![image](https://github.com/user-attachments/assets/0e344a3a-feb1-4bf0-87ce-9cd90a97db97)
-
-2. Navigate to `https://cloud.ibm.com/power/workspaces` (**A**) URL in the browser window to open the PowerVS workspaces view.
-   ![image](https://github.com/user-attachments/assets/da9a77fe-c7a8-4187-a391-b4e740a8cf46)
-
-3. Click **{{powerVS.serviceInstanceName}}** (**A**).
-   ![image](https://github.com/user-attachments/assets/9c6b8b7a-e371-40ea-a402-fc70e1f41b98)
-
-4. Click **View virtual servers** (**A**) to open up the virtual server instances view.
-   ![image](https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46)
-
-6. Click **Virtual appliances** (**A**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
+1. Click **Virtual appliances** (**A**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![image](https://github.com/user-attachments/assets/5ba14c2f-c80c-43bf-b51a-b7eb7b30a901)
 
-7. Click **Create from catalog +** (**A**). A new browser window or tab opens all products in the catalog.
+2. Click **Create from catalog +** (**A**). A new browser window or tab opens all products in the catalog.
 
     ![image](https://github.com/user-attachments/assets/81eebe2f-74ce-4bdf-85ff-ef5160aa68aa)
 
