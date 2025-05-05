@@ -1,19 +1,17 @@
 ??? Important "Important information about the demonstration environment!"
-    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).
     
-A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a> and other related section of the PowerVS documentation.
+A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered in this activity. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
-1. Click the **Subnets** option in the side menu under the {{powerVS.serviceInstanceName}} workspace. Expand the **Networking** section if not already expanded.
+1. Expand the **Networking** section and click the **Subnets** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
-    ![](_attachments/NetworkingMenu.png)
+    ![image](https://github.com/user-attachments/assets/e37dd944-57b8-4ff6-88b2-dec9d707413a)
 
-    Two subnets are listed. 
+2. Two subnets are listed. One is the public subnet for the workspace: {{powerVS.publicSubnet}}. This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned. The private subnet, {{powerVS.privateSubnet}} was created before the first VSI was provisioned.
 
-    ![](_attachments/Subnets-1.png)
+    ![image](https://github.com/user-attachments/assets/cf70c640-f8dc-4e8d-b248-4bf7dd30254f)
 
-    One is the public subnet for the workspace: {{powerVS.publicSubnet}}. This subnet was created when the public network option was selected when the first virtual server instance (VSI) in the workspace was provisioned.  
-
-    The private subnet, {{powerVS.privateSubnet}} was created before the first VSI was provisioned. In the next steps, explore how to create a private subnet.
+    In the next steps, explore how to create a private subnet.
 
 2. Click **Create subnet +**.
 
