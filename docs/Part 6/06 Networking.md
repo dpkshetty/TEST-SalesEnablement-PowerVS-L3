@@ -3,7 +3,7 @@
     
 A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered in this activity. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
 
-1. Expand the **Networking** section and click the **Subnets** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
+1. Expand the **Networking** (**A**) section and click the **Subnets** (**B**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![image](https://github.com/user-attachments/assets/e37dd944-57b8-4ff6-88b2-dec9d707413a)
 
@@ -13,38 +13,40 @@ A good network design for any cloud deployment is critical. This includes IBM Po
 
     In the next steps, explore how to create a private subnet.
 
-2. Click **Create subnet +**.
+3. Click **Create subnet +** (**A**).
 
-    ![](_attachments/SubnetsCreate.png)
+    ![image](https://github.com/user-attachments/assets/8e853d95-ef1a-4eb0-b918-d859025d592f)
 
-    
+4. To create a new subnet, the details about the subnet need to be specified. 
 
-3. Click **Cancel**.
-   
-    To create a new subnet, the details about the subnet need to be specified. 
+    These details include:
 
-    These details include a name and:
+    - **Name**
 
-    - Classless Inter-Domain Routing (CIDR)
+      The name of the subnet. Enter a unique name for the subnet.
+      
+    - **Classless Inter-Domain Routing (CIDR)**
 
-      CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask.
+      CIDR is a method for allocating Internet Protocol (IP) network addresses for routing. The CIDR notation is a compact representation of an IP address and its associated network mask. For the sake of this demonstration enter `192.168.200.14/24` in CIDR field. The **Gateway** and **IP ranges** fields are auto-populated based on the entered CIDR value.
 
-    - Gateway
+    - **Gateway**
 
       The gateway address is typically the first address in the CIDR range of available addresses; however, the address can be changed.
 
-    - IP ranges
+    - **IP ranges**
     
-      The IP range allows the user to specify either the full CIDR range as being available or a subset.
+      The **IP range** allows the user to specify either the full CIDR range as being available or a subset.
 
-    - Domain Name Server (DNS)
+    - **Domain Name Server (DNS)**
 
-      The DNS server is used for name resolution for the VSIs in the subnet. If the VSIs have a public facing network, they can use a public DNS server, like IBM Clouds: 9.9.9.9. However, if a public network is not available, the DNS should be set to 127.0.0.1 to avoid issues with VSIs hanging during startup. Up to 20 DNS servers can be specified.
+      The DNS server is used for name resolution for the VSIs in the subnet. Up to 20 DNS servers can be specified.
 
-    - Maximum Transmission Unit (MTU)
+    - **Maximum Transmission Unit (MTU)**
 
       MTU is used to specify the largest data packet size allowed over a network. A larger MTU produces less overhead, and a smaller value can reduce network delay. If Red Hat OpenShift is deployed on VSIs in the subnet, the recommendation is to set the MTU size to 1450. To support jumbo frames (often required for applications with large data transfers), the MTU should be set to 9000.
 
-    ![](_attachments/SubnetsCreate-1.png)
+    ![image](https://github.com/user-attachments/assets/6fcab035-3700-4bd1-ad09-abe2e66f08b9)
 
 Existing subnets can be edited; however, modifications are limited to changing the gateway, the IP ranges, and adding or removing DNS servers.
+
+5. 
