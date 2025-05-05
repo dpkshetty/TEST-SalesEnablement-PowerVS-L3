@@ -15,7 +15,7 @@ Virtual appliances in IBM Power Virtual Server are pre-configured virtual machin
 4. Click **View virtual servers** (**A**) to open up the virtual server instances view.
    ![image](https://github.com/user-attachments/assets/839db932-58f0-4a3c-8769-4215e789ae46)
 
-6. Click **Virtual appliances** (**A**) option in the side menu.
+6. Click **Virtual appliances** (**A**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![image](https://github.com/user-attachments/assets/5ba14c2f-c80c-43bf-b51a-b7eb7b30a901)
 
