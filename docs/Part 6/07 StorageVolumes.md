@@ -41,28 +41,20 @@ As mentioned earlier IBM Power Virtual Server (PowerVS) supports multiple tiers 
 
     ![image](https://github.com/user-attachments/assets/1b84b24d-b6ea-4c71-99e4-d1e8832d4dd9)    
 
-6. Click **Edit** under the ![](_attachments/ellipses.png) for one of the existing storage volumes.
+6. Click **Edit** under the ![](_attachments/ellipses.png) icon for one of the existing storage volumes.<br>**Note**: In this demonstration environment, edit access to storage volumes is not provided, hence the option will be seen disabled. The next steps will explain the different attributes of this option.
 
-    ![](_attachments/StorageVolumeEditMenu.png)
+    ![image](https://github.com/user-attachments/assets/82e7f1b5-6b80-418d-af03-76752fe10f1a)
 
-7. Before continuing, review the values for a storage volume that can be modified.
+7. Although the edit storage volume option is disabled, the modifiable attributes of a storage volume are provided here for reference.
 
-    As mentioned earlier, it is possible to modify some of the attributes of a storage volume.
+    * The name of the volume can be modified after it is provisioned. Remember, the name must be unique within the PowerVS workspace.
 
-    a. The name of the volume can be modified after it is provisioned. Remember, the name must be unique within the PowerVS workspace.
+    * The storage tier can be modified. However, if the volume is set to Fixed IOPs or is being changed to the Fixed IOPs tier, the size of the volume cannot be changed at the same time.
 
-    b. The storage tier can be modified. However, if the volume is set to Fixed IOPs or is being changed to the Fixed IOPs tier, the size of the volume cannot be changed at the same time.
+    * The size of the volume can be increased from its current size up to the maximum of 238,705 GB. The size of the volume cannot be decreased.
 
-    c. The size of the volume can be increased from its current size up to the maximum of 238,705 GB. The size of the volume cannot be decreased.
+    * Non-bootable volumes can be toggled between shared and unshared.
 
-    d. Non-bootable volumes can be toggled between shared and unshared.
-
-    e. A volume can be marked as bootable. Bootable volumes cannot be shared. It is possible for a single VSI to have multiple bootable volumes. PowerVS randomly selects a bootable volume as the instance's boot volume if the original is no longer bootable. VSIs must have at least one bootable volume.
-
-    ![](_attachments/StorageVolumeEdit-1.png)
-
-8. Click **Cancel**.
-
-    ![](_attachments/StorageVolumeEdit-3.png)
+    * A volume can be marked as bootable. Bootable volumes cannot be shared. It is possible for a single VSI to have multiple bootable volumes. PowerVS randomly selects a bootable volume as the instance's boot volume if the original is no longer bootable. VSIs must have at least one bootable volume.
 
 Storage volumes that are not actively in use by VSI can also be deleted from the edit menu. Learn more about managing storage volumes <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-modifying-instance#modifying-volume-network" target="_blank">here</a>.
