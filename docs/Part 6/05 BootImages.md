@@ -3,8 +3,6 @@
     
 Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boot volume. Boot images come from the PowerVS image catalog or are imported by clients. After a virtual server instance (VSI) is provisioned, a copy of the boot image is added to the client's boot image catalog.
 
-Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.
-
 1. Click the **Boot images** option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
     ![](_attachments/BootImageMenu.png)
@@ -32,3 +30,5 @@ Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power
     On the second **Import boot image** screen, the user is prompted to specify a name for the image, the storage tier for the image, storage pool. After those selections are made, the boot image is copied from COS to the PowerVS workspace's boot image catalog.
 
 3. Click **Cancel**.
+
+Learn more about importing boot images <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-importing-boot-image" target="_blank">here</a>.
