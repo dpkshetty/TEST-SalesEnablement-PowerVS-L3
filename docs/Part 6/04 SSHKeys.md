@@ -3,8 +3,6 @@
     
 Secure Shell also known as Secure Socket Shell (SSH) is a network protocol that is used to securely control access to computers over an unsecure network. In simple words, SSH is a secure way to remotely access and manage computers, encrypting your data to keep it safe from eavesdroppers. It's like having a private, encrypted chat with another computer.
 
-Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.
-
 Recall from the click through demonstrations to provision a virtual server instance, the `{{powerVS.sshKey}}` was specified as the SSH key for the server. The {{powerVS.sshKey}} was added to the workspace before those instances were created.
 
 !!! Note 
@@ -29,3 +27,5 @@ Recall from the click through demonstrations to provision a virtual server insta
 
 
 After the key is loaded into the workspace, it appears in the list of available keys to use when a new PowerVS VSI is provisioned. It is the client's responsibility to securely manage their keys. If a key is compromised, a new key should be created and added to the existing VSIs. The old key should be removed from the VSIs and the PowerVS workspace.
+
+Learn more about SSH <a href="https://en.wikipedia.org/wiki/Secure_Shell" target="_blank">here</a>.
