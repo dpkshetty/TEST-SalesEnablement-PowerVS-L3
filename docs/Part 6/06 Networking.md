@@ -1,7 +1,11 @@
 ??? Important "Important information about the demonstration environment!"
     In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).
     
-A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered in this activity. Learn more about PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
+A good network design for any cloud deployment is critical. This includes IBM Power Virtual Server (PowerVS) deployments. Many options are available for clients for both the connectivity from their on-premises environments to the cloud and within their PowerVS workspaces. Only the creation and management of private subnets within a PowerVS workspace is covered in this activity. Learn more about IBM PowerVS networks <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-network-architecture-diagrams" target="_blank">here</a>.
+
+## Viewing and configuring network subnets
+
+Clients can configure a private network subnet when they create an IBM Power Virtual Server, providing a subnet name and specifying a Classless Inter-Domain Routing (CIDR). How the private network subnet is configured, depends on the networking configuration of the Power Virtual Server Workspace.
 
 1. Expand the **Networking** (**A**) section and click the **Subnets** (**B**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
@@ -52,3 +56,13 @@ A good network design for any cloud deployment is critical. This includes IBM Po
 5. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel** (**A**) to return back to the subnets list page.
    ![image](https://github.com/user-attachments/assets/cdbcc0d4-43ef-4b7b-8a1a-52cacee48163)
 
+   Learn more about configuring subnets [here](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-configuring-subnet){target="_blank"}.
+
+## Network security groups
+
+A network security group (NSG) is used to define security rules to allow or deny specific network traffic that is related to resources provisioned in an IBM Power® Virtual Server workspace. You can create NSGs in the Power Virtual Server environment to inspect and filter network traffic between resources in Power Virtual Server workspaces.
+
+1. Expand the **Networking** (**A**) section and click the **Network security groups** (**B**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace. You will see an empty list as the NSG feature is not enabled and used in this demonstration.
+   ![image](https://github.com/user-attachments/assets/5880d716-6a67-4402-b64c-fe31e691747e)
+
+    Learn more about NSG [here](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-nsg){target="_blank"}.
