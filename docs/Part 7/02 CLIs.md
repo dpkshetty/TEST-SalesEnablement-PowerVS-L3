@@ -127,12 +127,13 @@ Thus far, all of these commands are **read** commands. The PowerVS CLIs also sup
     ??? tip "Tip for novice Linux users!"
 
         The above command performs the following 4 actions...
+    
          - **ssh-keygen**: Invokes the SSH key generation tool.
          - **-t ed25519**: Specifies the type of key to generate, in this case, an Ed25519 key, which is known for its high security and performance.
          - **-N ''**: Sets an empty passphrase for the key, meaning no passphrase is required to use the key.
          - **-f newKey**: Specifies the filename for the generated key, which will be newKey for the private key and newKey.pub for the public key.
 
-        In summary, this command generates a new Ed25519 SSH key pair without a passphrase and saves the keys to files named newKey and newKey.pub.
+         In summary, this command generates a new Ed25519 SSH key pair without a passphrase and saves the keys to files named newKey and newKey.pub.
         newKey is the private key and newKey.pub is the public key.
 
     After the SSH key pair is generated, it can be listed using the following command:
