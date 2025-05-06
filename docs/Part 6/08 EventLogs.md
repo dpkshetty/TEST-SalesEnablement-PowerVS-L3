@@ -1,7 +1,11 @@
 ??? Important "Important information about the demonstration environment!"
     In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).
     
-The IBM Power Virtual Server (PowerVS) logs all the events and notifications from the IBM Cloud console. You can access these events and notifications in the **Event logs** page. <br>The **Event logs** pages for PowerVS workspace provides a view of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event. <br>You can choose to enable or disable notifications for events on all workspaces. If you disable the notifications, you can still access the logs from the Event logs page.
+The IBM Power Virtual Server (PowerVS) logs all the events and notifications from the IBM Cloud console. You can access these events and notifications in the **Event logs** page.
+
+The **Event logs** pages for PowerVS workspace provides a view of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event.
+
+You can choose to enable or disable notifications for events on all workspaces. If you disable the notifications, you can still access the logs from the Event logs page.
 
 1. Click the **Event logs** (**A**) option in the side menu under the {{powerVS.serviceInstanceName}} workspace.
 
