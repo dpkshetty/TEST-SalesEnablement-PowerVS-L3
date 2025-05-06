@@ -124,32 +124,49 @@ Thus far, all of these commands are **read** commands. The PowerVS CLIs also sup
     ssh-keygen -t ed25519 -N '' -f newKey
     ```
 
+    ??? tip "Tip for novice Linux users!"
+
+        The above command performs the following 4 actions...
+         - **ssh-keygen**: Invokes the SSH key generation tool.
+         - **-t ed25519**: Specifies the type of key to generate, in this case, an Ed25519 key, which is known for its high security and performance.
+         - **-N ''**: Sets an empty passphrase for the key, meaning no passphrase is required to use the key.
+         - **-f newKey**: Specifies the filename for the generated key, which will be newKey for the private key and newKey.pub for the public key.
+
+        In summary, this command generates a new Ed25519 SSH key pair without a passphrase and saves the keys to files named newKey and newKey.pub.
+        newKey is the private key and newKey.pub is the public key.
+
+    After the SSH key pair is generated, it can be listed using the following command:
+
+    ```
+    ls -l
+    ```
+
     !!! info "Sample output"
-        ![](_attachments/part7_step12.png)
+        ![image](https://github.com/user-attachments/assets/ef962a48-8db6-43f3-82fa-8f299cae8325)
 
-    Use the PowerVS CLIs to create a key for the instance by using an imported RSA public key. Specify the key pair that was generated as the source (newKey). Do so by using the following command. (Note: newKeyPOWER is the name of the CLI-generated key that is to be created; newKey is the SSH key generated earlier by using the IBM Cloud Shell).
-
-    !!! tip "SSH keys"
-    
-        The SSH key-pair generated and assigned by this step is specific to IBM Power Systems. These are distinct from ones generated previously by using the IBM Cloud Shell.
+    Next, use the PowerVS CLIs to create a key for the VSI by using an imported RSA public key. Specify the key pair that was generated as the source (newKey). Do so by using the following command. (Note: newKeyPOWER is the name of the CLI-generated key that is to be created; newKey is the SSH key generated earlier by using the IBM Cloud Shell).
 
     ```
     ibmcloud pi ssh-key create newKeyPOWER --key newKey
     ```
 
+    !!! tip "SSH keys"
+    
+        The SSH key-pair generated and assigned by this step is specific to IBM Power Systems. These are distinct from ones generated previously by using the IBM Cloud Shell.
+
     !!! info "Sample output"
-        ![](_attachments/sshkeyCreate.png)
+        ![image](https://github.com/user-attachments/assets/3b70ca06-1ba4-48e0-860c-5c97479fc6db)
 
     As expected, the instruction fails to run because of insufficient (locked down) permissions within this demonstration environment. Next, experiment with other IBM Power CLIs. 
 
-13.  Restart the **{{linuxServer1.name}}** instance.
+14.  For example, restart the **{{linuxServer1.name}}** instance, and see what happens.
 
     ```
     ibmcloud pi instance action -o soft-reboot {{linuxServer1.name}}
     ```
 
-    !!! info "Sample output"
-        ![](_attachments/instance-soft-reboot.png)
+    !!! info "Sample output"    
+        ![image](https://github.com/user-attachments/assets/891f1462-8faa-41fa-876c-4cd310b920b5)
 
 There are over 100 PowerVS CLIs. Explore more CLIs by using the ITZ environment. Remember, use ```ibmcloud pi --help``` or ```ibmcloud pi <command> --help``` to get detailed information on a command's usage.
 
