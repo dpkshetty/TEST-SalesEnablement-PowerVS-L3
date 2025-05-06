@@ -165,9 +165,10 @@ Thus far, all of these commands are **read** commands. The PowerVS CLIs also sup
     ```
     ibmcloud pi instance action -o soft-reboot {{linuxServer1.name}}
     ```
-
+    
     !!! info "Sample output"    
         ![image](https://github.com/user-attachments/assets/891f1462-8faa-41fa-876c-4cd310b920b5)
 
+        
 There are over 100 PowerVS CLIs. Explore more CLIs by using the ITZ environment. Remember, use ```ibmcloud pi --help``` or ```ibmcloud pi <command> --help``` to get detailed information on a command's usage.
 
