@@ -21,9 +21,11 @@ To get started, first open the IBM Cloud Shell from the IBM Cloud portal:
 
 The next steps are run in the IBM Cloud Shell window that was opened.
 
-To avoid typographical errors **copy** the command line by using the ![](_attachments/CopyToClipboard.png) icon when it is available. Then paste the contents into the IBM Cloud Shell by using ++ctrl++**+v**, ++cmd++**+v** (may be operating system dependent), or right click and select paste at the prompt in the IBM Cloud Shell.
+To avoid typographical errors **copy** the command line by using the ![](_attachments/CopyToClipboard.png) icon when it is available. Then paste the contents into the IBM Cloud Shell using keyboard shortcuts (operating system specific, for example, Ctrl-V for Windows OS), or right click in the IBM Cloud Shell and select Paste or "Paste as plain text" option.
+   ![image](https://github.com/user-attachments/assets/5141d2d5-d679-4e11-9478-f913ac0ce731)
 
-4. Display all the PowerVS plug-in command-line options.
+
+4. To display a concise list of all command-line options for the PowerVS plug-in, use the `pi` argument, which stands for power-iaas. This command provides a summary of available options and their functionalities. **Note** that `pi` is also referred to as a plug-in for the `ibmcloud` command.
 
     ```
     ibmcloud pi --help | more
@@ -34,9 +36,15 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
 
 5. Press the **space bar** to continue the output. Continue to press space bar several times to scroll through the complete output.
 
-    Notice the last part of the message: **Enter 'ibmcloud pi [command] --help' for more information about a command.** Use this to get more help on individual PowerVS plug-in commands.
+    Notice the last part of the message: **Use "pi [command] --help" for more information about a command**. Use this to get more help on individual PowerVS plug-in commands. For example, to list detailed help for PowerVS images, use the `images` plug-in command.
 
-6. List all the PowerVS workspaces provisioned in the account.
+    ```
+    ibmcloud pi image --help
+    ```
+
+    ![image](https://github.com/user-attachments/assets/aae6a727-6a50-4505-acae-c5c71fd89104)
+
+7. List all the PowerVS workspaces provisioned in the account.
 
     ```
     ibmcloud pi workspace ls
@@ -47,7 +55,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
 
     To view the PowerVS instances in the workspace, the workspace target must first be set for the PowerVS plug-in.
 
-7. Set the workspace target by using the instance ID of the workspace.
+8. Set the workspace target by using the instance ID of the workspace.
 
     ```
     workspaceID=`ibmcloud pi workspace ls 2>&1 | grep {{powerVS.serviceInstanceName}} | tail -1 | cut -f1 -d' '`
@@ -56,7 +64,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     ??? tip "Tip for novice Linux users!"
         The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (**2>&1**). Next, the output is filtered (grep) to show the line for the {{powerVS.serviceInstanceName}}. Then the output from the **grep** command is sent to the **cut** command where all the output except the first field up to the first space character is ignored (**-f -d' '**). Finally, the output from the **cut** command was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
 
-8. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
+9. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
 
     ```
     ibmcloud pi workspace target $workspaceID
@@ -65,7 +73,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     !!! info "Sample output"
         ![](_attachments/service-target-2024.png)
 
-9. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
+10. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
 
     ```
     ibmcloud pi instance list
@@ -74,7 +82,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     !!! info "Sample output"
         ![](_attachments/instances-2024.png)
 
-10. View the details of the **{{aixServer1.name}}** instance.
+11. View the details of the **{{aixServer1.name}}** instance.
 
     ```
     ibmcloud pi instance get {{aixServer1.name}}
