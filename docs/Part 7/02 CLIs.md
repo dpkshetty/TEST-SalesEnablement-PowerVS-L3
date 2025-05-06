@@ -36,7 +36,9 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
 
 5. Press the **space bar** to continue the output. Continue to press space bar several times to scroll through the complete output.
 
-    Notice the last part of the message: **Use "pi [command] --help" for more information about a command**. Use this to get more help on individual PowerVS plug-in commands. For example, to list detailed help for PowerVS images, use the `images` plug-in command.
+    Notice the last part of the message: **Use "pi [command] --help" for more information about a command**. Use this to get more help on individual PowerVS plug-in commands.
+
+6. For example, to list detailed help on PowerVS images, use the `image` plug-in command.
 
     ```
     ibmcloud pi image --help
@@ -50,21 +52,27 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     ibmcloud pi workspace ls
     ```
 
-    !!! info "Sample output"
-        ![](_attachments/service-list-2024.png)
+    !!! info "Sample output"        
+        ![image](https://github.com/user-attachments/assets/e67e75a1-cf8e-41ea-b0dd-79d7092268e9)
 
-    To view the PowerVS instances in the workspace, the workspace target must first be set for the PowerVS plug-in.
+    To view the PowerVS virtual server instances (VSI) in the workspace, the workspace target must first be set for the PowerVS plug-in.
 
-8. Set the workspace target by using the instance ID of the workspace.
+9. Set the workspace target by using the instance ID of the workspace.
 
     ```
-    workspaceID=`ibmcloud pi workspace ls 2>&1 | grep {{powerVS.serviceInstanceName}} | tail -1 | cut -f1 -d' '`
+    workspaceID=`ibmcloud pi workspace ls 2>&1 | grep PowerVS-L3-2025 | awk '{print $NF}'`
     ```
 
     ??? tip "Tip for novice Linux users!"
-        The last command did 5 actions. First, it listed the workspace list like in step 6 and redirected both the error and standard output to the standard output stream (**2>&1**). Next, the output is filtered (grep) to show the line for the {{powerVS.serviceInstanceName}}. Then the output from the **grep** command is sent to the **cut** command where all the output except the first field up to the first space character is ignored (**-f -d' '**). Finally, the output from the **cut** command was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
+   
+        The command above did 3 actions...
+        - **ibmcloud pi workspace ls 2>&1**: Lists all workspaces in IBM Cloud PowerVS and redirects both standard output and standard error to standard output.
+        - **grep PowerVS-L3-2025**: Filters the output to include only lines containing the string PowerVS-L3-2025.
+        - **awk '{print $NF}'**: Uses awk to print the last field of each filtered line.
 
-9. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
+        Finally, the output was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
+
+11. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
 
     ```
     ibmcloud pi workspace target $workspaceID
@@ -73,7 +81,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     !!! info "Sample output"
         ![](_attachments/service-target-2024.png)
 
-10. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
+12. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
 
     ```
     ibmcloud pi instance list
@@ -82,7 +90,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     !!! info "Sample output"
         ![](_attachments/instances-2024.png)
 
-11. View the details of the **{{aixServer1.name}}** instance.
+13. View the details of the **{{aixServer1.name}}** instance.
 
     ```
     ibmcloud pi instance get {{aixServer1.name}}
