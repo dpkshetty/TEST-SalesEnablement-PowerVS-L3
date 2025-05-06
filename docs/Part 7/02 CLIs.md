@@ -66,11 +66,12 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     ??? tip "Tip for novice Linux users!"
    
         The command above did 3 actions...
-        - **ibmcloud pi workspace ls 2>&1**: Lists all workspaces in IBM Cloud PowerVS and redirects both standard output and standard error to standard output.
-        - **grep PowerVS-L3-2025**: Filters the output to include only lines containing the string PowerVS-L3-2025.
-        - **awk '{print $NF}'**: Uses awk to print the last field of each filtered line.
+   
+         - **ibmcloud pi workspace ls 2>&1**: Lists all workspaces in IBM Cloud PowerVS and redirects both standard output and standard error to standard output.
+         - **grep PowerVS-L3-2025**: Filters the output to include only lines containing the string PowerVS-L3-2025.
+         - **awk '{print $NF}'**: Uses awk to print the last field of each filtered line.
 
-        Finally, the output was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
+         Finally, the output was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
 
 11. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
 
