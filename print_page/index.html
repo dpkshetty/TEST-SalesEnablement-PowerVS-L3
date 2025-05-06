@@ -3598,40 +3598,39 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 </ol>
 <p>Storage volumes that are not actively in use by VSI can also be deleted from the edit menu. Learn more about managing storage volumes <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-modifying-instance#modifying-volume-network" target="_blank">here</a>.</p></div></section><section class="print-page" id="part%206-08%20eventlogs"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
-<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
+<p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will NOT have the ability to create, edit, or delete resources in the IBM Technology Zone environment. Steps are provided to get familiarity with different PowerVS feature(s).</p>
 </details>
-<p>The <strong>Event logs</strong> pages for PowerVS workspaces provides a view of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event. It is also possible to integrate PowerVS with IBM Cloud Monitoring and IBM Cloud Activity Tracker.</p>
-<div class="admonition note">
-<p class="admonition-title">Deprecation of IBM Log Analysis and IBM Cloud Activity Tracker</p>
-<p>IBM Log Analysis and IBM Cloud Activity Tracker are being replaced by IBM Cloud Logs in 2024. This demonstration guide will be updated to once IBM Cloud Logs in fully operational and integrated with PowerVS.</p>
-</div>
+<p>The IBM Power Virtual Server (PowerVS) logs all the events and notifications from the IBM Cloud console. You can access these events and notifications in the <strong>Event logs</strong> page.</p>
+<p>The <strong>Event logs</strong> pages for PowerVS workspace provides a view of the 400 most recent logs within the current and previous month. These logs show the recent activities, and provide details (like who performed the action) about the event.</p>
+<p>You can choose to enable or disable notifications for events on all workspaces. If you disable the notifications, you can still access the logs from the Event logs page.</p>
 <ol>
 <li>
-<p>Click the <strong>Event logs</strong> option in the side menu under the PowerVS-L3-2025 workspace.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/EventLogsMenu.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/EventLogsMenu.png"></a></p>
+<p>Click the <strong>Event logs</strong> (<strong>A</strong>) option in the side menu under the PowerVS-L3-2025 workspace.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/749d06af-6f1f-4c9a-b6f5-349bf340f386" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/749d06af-6f1f-4c9a-b6f5-349bf340f386"></a></p>
 </li>
 <li>
-<p>Click <strong>Log notification settings</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/EventLogsMain.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/EventLogsMain.png"></a></p>
+<p>Click <strong>Log notification settings</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/53cfa470-59ab-4af9-b803-b2649f0fa442" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/53cfa470-59ab-4af9-b803-b2649f0fa442"></a></p>
 </li>
 <li>
-<p>Review the <strong>Log notification settings</strong> and then click <strong>Cancel</strong>.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/EventLogsSettings-3.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/EventLogsSettings-3.png"></a></p>
+<p>Review the <strong>Log notification settings</strong> and then click <strong>Cancel</strong> (<strong>A</strong>).</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/3e7f19fb-f80e-4f1a-a369-801691f3b9ac" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/3e7f19fb-f80e-4f1a-a369-801691f3b9ac"></a></p>
 <div class="admonition important">
 <p class="admonition-title">Don't see any notifications?</p>
 <p>Since event logs only displays events in the current and previous month, it is possible that you may not see any events. If that is the case, you won't be able to follow the steps below; however, the images below will help you understand the type of information that is logged and to what level of detail.</p>
 </div>
 </li>
 <li>
-<p>Expand one of the events in the table.</p>
-<p>Note, if no events have been generated in last 60 days, there may not be an event to examine. This event is related to a <strong>Virtual Server Instance</strong> (VSI) resource type and was triggered when an image capture was run on one of the VSIs.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/EventLogsEventDetail.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/EventLogsEventDetail.png"></a></p>
-<p>The next image lists the events that were triggered when the first VSI in the demonstration environment was provisioned.</p>
-<p><a class="glightbox" href="../Part%206/_attachments/EventLogs-AIXVSI.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../Part%206/_attachments/EventLogs-AIXVSI.png"></a></p>
-<p>The events that are logged are high-level events, but provide useful information as long-running tasks progress. For instance, provisioning the AIX VSI took about 40 minutes as documented by the timestamps.</p>
+<p><strong>Expand</strong> (<strong>A</strong>) one of the events in the table. This event is related to a <strong>Virtual Server Instance</strong> (VSI) resource type and was triggered when an IBM i VSI was created. <strong>Note</strong>, if no events have been generated in last 60 days, there may not be an event to examine.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/23b9c651-b32c-4494-bc6a-980a6baacf64" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/23b9c651-b32c-4494-bc6a-980a6baacf64"></a></p>
+</li>
+<li>
+<p>The next image lists the events that were triggered when the AIX VSI in the demonstration environment was provisioned (<strong>Hint</strong>: Notice the date/time stamps). As part of the AIX VSI provisioning, a storage volume <code>powervs-volume-2025</code> was also created and the VSI was attached to a public network <code>public-192_168_222_224-29-VLAN_2060</code>, both of those events are seen in the event logs.</p>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/f9c9919a-e29c-4eb6-b897-fc326b3512b5" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="image" src="https://github.com/user-attachments/assets/f9c9919a-e29c-4eb6-b897-fc326b3512b5"></a></p>
 </li>
 </ol>
-<p>For more detailed information, IBM Cloud Activity Tracker or IBM Cloud Logs can be used. Learn more about the options in <strong>Part 8 - Observing PowerVS resources</strong>.</p></div></section><section class="print-page" id="part%206-09%20additionalservices"><div><details class="important">
+<p>For more information on event logs and notifications, refer to <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-manage-event-logs" target="_blank">this</a> link. </p>
+<p>PowerVS clients can use IBM Cloud Monitoring and IBM Cloud Logs to monitor and log events that are related to their PowerVS deployments. Learn more about these options in <a href="https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/Part%208/01%20Introduction/" target="_blank">Part 8 - Observing PowerVS resources</a>.</p></div></section><section class="print-page" id="part%206-09%20additionalservices"><div><details class="important">
 <summary>Important information about the demonstration environment!</summary>
 <p>In this demonstration environment, full access to the IBM Cloud account is NOT provided. In the steps that follow, you will not have the ability to create, edit, or delete resources in the IBM Technology Zone environment.</p>
 </details>
@@ -3791,7 +3790,7 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
                             Part 8 - Observing PowerVS resources <a class='headerlink' href='#section-part-8-observing-powervs-resources' title='Permanent link'>↵</a>
                         </h1>
                         <section class="print-page" id="part%208-01%20introduction"><div><p>IBM Power Virtual Server (PowerVS) deployments can take advantage of many other IBM Cloud services and products. One area of particular interest to many clients is around <strong>observability</strong> of resources and activity. </p>
-<p>In the next chapters, examine how PowerVS clients can use IBM Cloud Monitoring and IBM Event Tracker to monitor and log events that are related to their PowerVS deployments.</p></div></section><section class="print-page" id="part%208-02%20ibm%20cloud%20monitoring"><div><p>IBM Cloud Monitoring offers visibility into the performance and health of cloud-based infrastructure and applications, with in-depth troubleshooting and alerting. Learn more about IBM Cloud Monitoring <a href="https://cloud.ibm.com/docs/monitoring?topic=monitoring-getting-started" target="_blank">here</a>.</p>
+<p>In the next chapters, examine how PowerVS clients can use IBM Cloud Monitoring and IBM Cloud Logs to monitor and log events that are related to their PowerVS deployments.</p></div></section><section class="print-page" id="part%208-02%20ibm%20cloud%20monitoring"><div><p>IBM Cloud Monitoring offers visibility into the performance and health of cloud-based infrastructure and applications, with in-depth troubleshooting and alerting. Learn more about IBM Cloud Monitoring <a href="https://cloud.ibm.com/docs/monitoring?topic=monitoring-getting-started" target="_blank">here</a>.</p>
 <p>For this demonstration guide, an IBM Cloud Monitoring instance is already provisioned. This instance monitors the resources that are part of the PowerVS-L3 resource group in the shared cloud account. Your user ID has permission to open and view the IBM Cloud Monitoring dashboard. </p>
 <p>In the steps that follow, learn how to:</p>
 <ul>
