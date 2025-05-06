@@ -160,7 +160,7 @@ Thus far, all of these commands are **read** commands. The PowerVS CLIs also sup
 
     As expected, the instruction fails to run because of insufficient (locked down) permissions within this demonstration environment. Next, experiment with other IBM Power CLIs. 
 
-14.  For example, restart the **{{linuxServer1.name}}** instance, and see what happens.
+14. For example, restart the **{{linuxServer1.name}}** instance, and see what happens.
 
     ```
     ibmcloud pi instance action -o soft-reboot {{linuxServer1.name}}
