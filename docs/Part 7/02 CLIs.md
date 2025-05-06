@@ -69,18 +69,18 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
    
          - **ibmcloud pi workspace ls 2>&1**: Lists all workspaces in IBM Cloud PowerVS and redirects both standard output and standard error to standard output.
          - **grep PowerVS-L3-2025**: Filters the output to include only lines containing the string PowerVS-L3-2025.
-         - **awk '{print $NF}'**: Uses awk to print the last field of each filtered line.
+         - **awk '{print $NF}'**: Uses awk to print the last field of the filtered line.
 
-         Finally, the output was stored in an environment variable called **workspaceID**. Why? Because no one wants to type **crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:e7156c4d-eaf3-43e6-a972-a9782efa5e8d::** to run the next command.
+         Finally, the output was stored in an environment variable called **workspaceID**. Why? Because no one wants to type `crn:v1:bluemix:public:power-iaas:wdc07:a/ba0e33c9056f470ca19de009747ec654:3e5453c4-6adb-46be-b25d-417adcec9dbb::` to run the next command.
 
-11. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the workspace.
+11. Use the **$workspaceID** environment variable to set the target of future PowerVS plug-in commands to the `PowerVS-L3-2025` workspace (workspace used in this demonstration).
 
     ```
     ibmcloud pi workspace target $workspaceID
     ```
 
     !!! info "Sample output"
-        ![](_attachments/service-target-2024.png)
+        ![image](https://github.com/user-attachments/assets/49421b17-b57c-4aae-9723-7912aaaac225)
 
 12. List all the PowerVS instances provisioned in the targeted PowerVS workspace.
 
@@ -89,7 +89,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     ```
 
     !!! info "Sample output"
-        ![](_attachments/instances-2024.png)
+        ![image](https://github.com/user-attachments/assets/2d590128-147a-48d9-a0d2-0fa815840cdf)
 
 13. View the details of the **{{aixServer1.name}}** instance.
 
@@ -98,7 +98,7 @@ To avoid typographical errors **copy** the command line by using the ![](_attach
     ```
 
     !!! info "Sample output"
-        ![](_attachments/aixinstance-detail-2024.png)
+        ![image](https://github.com/user-attachments/assets/ac81bd36-0f30-4ccf-bba0-1ed42f5886c9)
 
 Thus far, all of these commands are **read** commands. The PowerVS CLIs also support **create** and **update** commands, but remember user IDs have access restrictions in this shared environment. Try the **instance update** command and see what happens.
 
@@ -116,9 +116,9 @@ Thus far, all of these commands are **read** commands. The PowerVS CLIs also sup
 
     Notice that the two tables are nearly identical, but differences do exist due to the operating systems used on each VSI.
 
-12. There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did to authorize your access to the PowerVS instances. Recall when first connecting to the PowerVS virtual machines remotely through the IBM Cloud Shell with the supplied key information.
+12. There are numerous reasons why one might want to generate an SSH private key for managing a PowerVS environment. In fact, that's exactly what the service's administrators did to authorize your access to the PowerVS instances. Recall when first connecting to the PowerVS virtual machines remotely through the IBM Cloud Shell using the Secure Socket Shell (SSH) command with the supplied key information, in [Part 5 - Accessing PowerVS instances](https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/Part%205/02%20Access-instance/){target="_blank"} section.<br>
 
-    The IBM Cloud Shell can generate an SSH key that is configured for password-less authentication (in other words, allowing users to authenticate without needing to also supply a password). Using IBM Cloud Shell, or any Linux environment, run the following ssh-keygen command:
+    The IBM Cloud Shell can generate an SSH key that can be used to configure password-less authentication (in other words, allowing users to authenticate without needing to also supply a password). Using IBM Cloud Shell, or any Linux environment, run the following ssh-keygen command:
 
     ```
     ssh-keygen -t ed25519 -N '' -f newKey
