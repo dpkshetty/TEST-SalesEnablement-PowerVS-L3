@@ -11,3 +11,5 @@ By using PER solution, as a Power Virtual Server user you can access other IBM C
 The following network architecture diagram explains how the PER is integrated into the IBM Cloud environment:
 ![image](https://github.com/user-attachments/assets/70f46341-fcad-4a6b-9b07-bded9582c051)
 
+For more details on PER, refer to this [link](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-per){target="_blank"}
+
