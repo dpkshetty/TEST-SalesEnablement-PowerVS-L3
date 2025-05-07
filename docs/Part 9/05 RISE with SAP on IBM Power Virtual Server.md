@@ -1,0 +1,1 @@
+RISE with SAP helps clients modernize their ERP landscape and migrate it to the cloud. It combines outcome-driven services, cloud ERP on SAP S/4HANA® and other key platforms that can help transform the enterprise operating model. However, transitioning to a cloud ERP solution can be complex. 
