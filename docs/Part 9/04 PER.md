@@ -4,7 +4,7 @@ PER improves network communication across different parts of the IBM network. Th
 
 !!! note "Availability of PER capability"
 
-    Note: The PER capability will be deployed in all the data centers over time. See [Data centers that support PER](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-per#dcs-per){target="_blank"} for more information.
+    The PER capability will be deployed in all the data centers over time. See [Data centers that support PER](https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-per#dcs-per){target="_blank"} for more information.
 
 By using PER solution, as a Power Virtual Server user you can access other IBM Cloud services, such as IBM Cloud domain name server (DNS), Network Time Protocol (NTP), and Cloud Object Storage. You can connect to these services without having to use proxies or virtual routers, as the PER solution includes a Network Address Translation (NAT) device that simplifies the access process.
 
