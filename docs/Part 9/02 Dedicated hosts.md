@@ -32,11 +32,14 @@ Note the ability to share the **Dedicated host group** between workspaces. Selec
 7. Click in the **Host name** field.
 8. Click the **Machine type** pull-down menu.
 
-As of July 2024, PowerVS supports reserving either Power S922 or S1022 servers as dedicated hosts. Availability of dedicated hosts varies by data center. At the time this click through demonstration was created, the data center specified by the workspace only had S922 servers available. 
+As of April 2025, PowerVS supports reserving either Power S922, S1022, E1050 or E1080 servers as dedicated hosts. Availability of dedicated hosts varies by data center. At the time this click through demonstration was created, the data center specified by the workspace only had S922 servers available. 
 
-9. Click **S922 (15 cores | 0.98 TB)**.
+9. Click **S922 (15 cores | 1.02 TB)**.
 10. Click **Finish**.
 11. Click **I agree to the Terms and conditions**.
+12. Click **Create**.
+
+A dedicated host is now being provisioned. This process took approximately 10 minutes.
 
 After a host is reserved, users are able to provision virtual server instances by using either the provided standard operating system images or imported custom images. Shared processor pools (SPPs) can also be created in a dedicated host. Learn more about dedicated hosts <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-dedicated-host" target="_blank">here</a>.
 
