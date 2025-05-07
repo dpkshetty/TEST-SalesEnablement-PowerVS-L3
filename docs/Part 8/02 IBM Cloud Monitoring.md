@@ -12,9 +12,9 @@ Note, this demonstrate guide does not provide detailed information on provisioni
 
 1. Click the IBM Cloud portal menu icon ![](_attachments/hamburgerIcon.png) (**A**).
 
-   ![image](https://github.com/user-attachments/assets/3891d36e-6b9d-4651-8397-f9ef29b0cd51)
+    ![image](https://github.com/user-attachments/assets/3891d36e-6b9d-4651-8397-f9ef29b0cd51)
 
-3. Expand the **Observability (A)** menu and click **Monitoring (B)**.
+2. Expand the **Observability (A)** menu and click **Monitoring (B)**.   
 
     ![image](https://github.com/user-attachments/assets/0eeea732-65aa-4ac6-8970-26f47115ed52)
 
@@ -44,7 +44,7 @@ Note, this demonstrate guide does not provide detailed information on provisioni
 
     ![image](https://github.com/user-attachments/assets/c79b473f-07c1-414e-8fd4-34d505adc0fc)
 
-    Notice that the bottom of the dashboard provides controls to adjust the time frame for the charts presented on the dashboard. The default is set to one hour (1H). To see more data and make the charts appear more interesting, consider changing the time setting to two weeks. Click **2W (A)**.
+8. Notice that the bottom of the dashboard provides controls to adjust the time frame for the charts presented on the dashboard. The default is set to one hour (1H). To see more data and make the charts appear more interesting, consider changing the time setting to two weeks. Click **2W (A)**.
 
     ![image](https://github.com/user-attachments/assets/de6742e5-97f8-41cb-8d47-51b51f2e8189)
 
