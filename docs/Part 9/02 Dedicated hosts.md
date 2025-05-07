@@ -16,6 +16,10 @@ Note, fields that require a text entry (for example workspace name) are pre-popu
 
     **Click through demo:** <a href="https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/includes/Provisioning-a-DedicatedHost/index.html" target ="_blank">Provision a Dedicated Host</a>
 
+    !!! tip "Tips for maximizing the click through experience"
+
+        Follow this click through guide to complete the demonstration. In case of uncertainty regarding the next click, clicking anywhere on the screen will prompt a green highlight box to indicate the next clickable area. **For optimal performance, adjust the browser’s zoom percentage to ensure the entire demonstration screen fits within the viewable area.**
+
 2. Click **Dedicated hosts** in the left menu bar.
 3. Click **Reserve host +**.
 4. Click **Create new +**.
