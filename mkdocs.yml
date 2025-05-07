@@ -56,6 +56,7 @@ nav:
     - 'Introduction': 'Part 9/01 Introduction.md'
     - 'Dedicated hosts': 'Part 9/02 Dedicated hosts.md'
     - 'Deployable architectures': 'Part 9/03 Deployable architectures.md'
+    - 'Power edge router': 'Part 9/04 PER.md'
   - Part 10 - Next steps:
     - 'Next steps': 'Part 10/01 Next steps.md'
   - Support: support.md
