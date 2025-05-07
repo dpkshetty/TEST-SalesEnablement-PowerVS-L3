@@ -12,7 +12,7 @@ Note, fields that require a text entry (for example workspace name) are pre-popu
 !!! tip
     Not sure where to click or what to do next? Click anywhere on the screen and the next spot to click is highlighted.
 
-1. Open the following link and then click play ![](_attachments/ClickThruPlayButton.png) to begin the demonstration.
+1. Open the following link and then click play ![image](https://github.com/user-attachments/assets/67789db8-fd6d-4d68-a26b-3a1d6c0b7e97) button to begin the demonstration.
 
     **Click through demo:** <a href="https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/includes/Provisioning-a-DedicatedHost/index.html" target ="_blank">Provision a Dedicated Host</a>
 
