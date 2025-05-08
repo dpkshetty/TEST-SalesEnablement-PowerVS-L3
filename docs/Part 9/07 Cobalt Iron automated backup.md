@@ -4,7 +4,9 @@
 
 IBM Cloud® Partner Cobalt Iron® provides an automated backup offering for AIX and Linux instances of IBM® Power® Virtual Server. The backup offering is called Secure Automated Backup with Compass® from now on referred as “Backup Offering”.
 
-The Backup Offering is powered by Cobalt Iron Compass and is accessible from the IBM Cloud catalog. By ordering from the IBM Cloud Catalog, IBM Power Virtual Server customers get a simple, secure, and automated backup and restore experience that turns on within minutes of ordering. From there, Secure Automated Backup with Compass automates all operational tasks and complexities, allowing customers to protect their data quickly and securely. Prior to this offering, customers had to manually select, install, configure, optimize, manage, monitor, maintain, and secure all components of a backup infrastructure in order to protect their workloads in Power Virtual Server (PowerVS).
+The Backup Offering is powered by Cobalt Iron Compass and is accessible from the IBM Cloud catalog. By ordering from the IBM Cloud Catalog, IBM Power Virtual Server customers get a simple, secure, and automated backup and restore experience that turns on within minutes of ordering. 
+
+Secure Automated Backup with Compass automates all operational tasks and complexities, allowing customers to protect their data quickly and securely. Prior to this offering, customers had to manually select, install, configure, optimize, manage, monitor, maintain, and secure all components of a backup infrastructure in order to protect their workloads in Power Virtual Server (PowerVS).
 
 Learn more about this backup offering announcement [here](https://info.cobaltiron.com/news/cobalt-iron-ibm-vs-baas-global-expansion){target="_blank"}.
 
