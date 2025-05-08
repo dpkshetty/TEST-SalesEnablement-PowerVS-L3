@@ -1,3 +1,7 @@
+For over half a century, enterprises have used IBM's infrastructure to host their mission-critical SAP systems, for round-the-clock operations while safeguarding sensitive business data.
+ 
+IBM Power Virtual Server (PowerVS) offers a unique advantage to these enterprises: It is designed to let them migrate to RISE with SAP with less disruption by keeping their applications and databases on the same hardware architecture they currently use. This helps them execute a swift transition to RISE with SAP and be on a highly resilient and secured cloud platform.
+
 RISE with SAP helps clients modernize their ERP landscape and migrate it to the cloud. It combines outcome-driven services, cloud ERP on SAP S/4HANA® and other key platforms that can help transform the enterprise operating model. However, transitioning to a cloud ERP solution can be complex. 
 
 To help accelerate client's move to cloud ERP, SAP® will offer RISE with SAP on IBM® Power® Virtual Server. The solution is planned to be available in second quarter of 2025. Power Virtual Server helps you seamlessly migrate to RISE with SAP by keeping your applications and databases on the same hardware architecture you currently use. This approach results in a faster and more seamless transition to RISE with SAP on a highly resilient and secured cloud platform.
@@ -10,3 +14,5 @@ This level of rock-solid reliability has made IBM Power a staple for every organ
 
 The below infographic shows the benefits enterprises can get by running SAP HANA on IBM Power:
 ![image](https://github.com/user-attachments/assets/56a9ac5f-b2db-451d-b2bc-353cf45ddda8)
+
+For more information on RISE with SAP on IBM PowerVS, refer to the seismic sales kit page [here](https://ibm.seismic.com/Link/Content/DC66cHW6FmGFGGQQ7PVGm8M3HGPV){target="_blank"}
