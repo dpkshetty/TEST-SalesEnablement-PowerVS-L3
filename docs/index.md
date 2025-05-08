@@ -9,58 +9,6 @@ The learning material is divided across distinct parts, each with one or more ch
 
 **IBMers** must develop and record a Stand & Deliver presentation. This recorded video is intended to simulate delivery of a “live” demo in front of a client. IBMers have the flexibility to define a hypothetical client, the challenges the client has, and the goals they aspire to achieve. Specific criteria that must be demonstrated as part of the Stand & Deliver recordings are provided within the documentation that accompanies the Level 3 course. 
 
-The following guidance helps save time in completing the demonstration steps.
-
-## Using the demonstration guide
-
- The {{guide.name}} uses a reactive browser-based interface. The Demonstration Guide table of contents may be displayed as shown in this image.
-
-![](_attachments/DemonstrationGuidTOC.png)
-
-However, if the browser window is sized smaller, the table of contents will only be accessible via the main menu icon (![](_attachments/MainMenuIcon.png)).
-
-![](_attachments/DemonstrationGuidTOCMainMenu.png)
-
-Click the main menu icon (![](_attachments/MainMenuIcon.png)) to expand the table of contents.
-
-![](_attachments/DemonstrationGuidTOCMMExpanded.png)
-
-The {{guide.name}} is organized in parts and chapters. Most chapters contain numbered steps.
-Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM Cloud Shell, and PowerVS instance consoles.
-
-!!! Warning
-    The IBM Cloud Portal and {{offering.name}} changes regularly and can differ from the images that are captured here.
-
-In some images, the following styles of highlighting are used:
-
-- Action highlight box: Illustrates where to click, enter, or select an item:
-
-    ![](_attachments/ClickActionRectangle.png)
-
-- Path or "explore more" highlight box illustrates one of two things:
-
-    - the path to follow to get to a specific location in the user interface
-    - areas to explore
-
-    ![](_attachments/PathExploreHighlight.png)
-
-- Copy to the clipboard box: The text is copied to the clipboard. Click the copy icon and then paste with the operating system's paste function. For example, entering ++ctrl++**+v**, ++cmd++**+v**, or right click and select paste.
-
-    ![](_attachments/Usage-Clipboard.png)
-
-Also, several "click through" demonstrations are included. Links to click through demonstrations open in a new browser window or tab.
-
-![](_attachments/ClickThruStartPage.png)
-
-Click **play** ![](_attachments/ClickThruPlayButton.png) in the middle of the screen to start the demo. Then, follow the steps in the demonstration guide. Not sure where to click or what to do next? Click anywhere on the screen and the spot to click next is highlighted.
-
-Just a reminder, **in this demonstration environment, full access to the IBM Cloud account is NOT provided.** User identifications (IDs) are restricted to specific capabilities. Permission to create or modify PowerVS service instances, virtual machines (instances), networks, images, and so on, is not provided.
-
-!!! Warning
-    Attempting to perform an action without the appropriate permissions results in an error message like the one that follows. This error is not an issue with IBM Cloud or PowerVS, rather a restriction of the demo environment and the permissions assigned to users.
-
-    ![](_attachments/ErrorMessage.png)
-    
 ## Acronyms
 
 The following acronyms are used throughout this demonstration guide:
@@ -84,5 +32,3 @@ The following acronyms are used throughout this demonstration guide:
     - Secure Socket Shell (SSH)
     - User identification (ID)
     - Virtual machine (VM)
-
-It is now time to proceed to Part 1, an overview of {{offering.name}}.
