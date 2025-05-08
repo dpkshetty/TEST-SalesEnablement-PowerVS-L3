@@ -111,7 +111,9 @@ plugins:
         path_to_pdf: ""
         include_css: true
         enabled: true
-
+        exclude:
+          - helpful-tips.md
+          
 markdown_extensions:
   - sane_lists
   - pymdownx.details
