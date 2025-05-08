@@ -1,3 +1,7 @@
+!!! note "Important information regarding the demonstration environment!"
+
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. Provisioning a IBM Cloud® Security and Compliance Center Workload Protection (SCC WP) is not permitted within this environment. The following activity offers an overview of the SCC WP and includes links for further information.
+
 IBM Cloud® Security and Compliance Center Workload Protection (SCC WP) offers a comprehensive suite of security solutions to help your organization secure its cloud environments. Security and Compliance Center Workload Protection centrally manages your organization’s security, risk, and compliance with regulatory standards and industry benchmarks. 
 
 In highly regulated sectors such as financial services, continuous compliance in the cloud environment is crucial to protect customer and application data. Cloud Security Posture Management (CSPM) is one of the key features of the Security and Compliance Center Workload Protection service. When this feature is enabled, the CSPM ensures that automatic compliance checks are integrated in your development workflow to mitigate such risks on a daily basis.
