@@ -1,3 +1,7 @@
+!!! note "Important information regarding the demonstration environment!"
+
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. Provisioning a backup service is not permitted within this environment. The following activity offers an overview of the backup strategies and includes links for further information.
+
 IBM Cloud® Partner Cobalt Iron® provides an automated backup offering for AIX and Linux instances of IBM® Power® Virtual Server. The backup offering is called Secure Automated Backup with Compass® from now on referred as “Backup Offering.”
 
 The Backup Offering is powered by Cobalt Iron Compass and is accessible from the IBM Cloud catalog.
