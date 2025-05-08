@@ -42,6 +42,6 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
     Copying and pasting commands and prompts from this demonstration guide is easy and can eliminate typographical errors.
 
     Click the highlighted copy icon and then use your operating system's paste function. For example, ++ctrl+v++, or right-click and select ```Paste```.
-    ![image](![image](https://github.com/user-attachments/assets/14a1975f-88a0-4d46-94a4-3f63b8364be8)
+    ![image](https://github.com/user-attachments/assets/14a1975f-88a0-4d46-94a4-3f63b8364be8)
 
     
