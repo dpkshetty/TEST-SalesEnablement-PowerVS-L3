@@ -1,3 +1,7 @@
+!!! note "Important information regarding the demonstration environment!"
+
+    In this demonstration environment, full access to the IBM Cloud account is NOT provided. Provisioning a Power edge router is not permitted within this environment. The following activity offers an overview of the Power edge router and includes links for further information.
+
 A Power Edge Router (PER) is a high-performance router that provides advanced routing capabilities for IBM® Power Virtual Server users.
 
 PER improves network communication across different parts of the IBM network. The PER solution creates a direct connection to the IBM Cloud Multi Protocol Label Switching (MPLS) backbone, making it easy for different parts of the IBM network to communicate with each other. The PER solution consists of two routers that enable an aggregate connectivity of 400 Gbps to each Power Virtual Server Performance Optimized Data (POD) center. A POD is a modular data center.
