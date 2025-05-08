@@ -1,5 +1,24 @@
 ## Using the demonstration guide
+
 Use these helpful tips to take full advantage of the IBM Power Virtual Server Level 3 guide.
+
+The {{guide.name}} uses a reactive browser-based interface. The Demonstration Guide table of contents may be displayed as shown in this image.
+
+![](_attachments/DemonstrationGuidTOC.png)
+
+However, if the browser window is sized smaller, the table of contents will only be accessible via the main menu icon (![](_attachments/MainMenuIcon.png)).
+
+![](_attachments/DemonstrationGuidTOCMainMenu.png)
+
+Click the main menu icon (![](_attachments/MainMenuIcon.png)) to expand the table of contents.
+
+![](_attachments/DemonstrationGuidTOCMMExpanded.png)
+
+The {{guide.name}} is organized in parts and chapters. Most chapters contain numbered steps.
+Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM Cloud Shell, and PowerVS instance consoles.
+
+!!! Warning
+    The IBM Cloud Portal and {{offering.name}} changes regularly and can differ from the images that are captured here.
 
 ??? tip "Printing the demonstration guide"
 
