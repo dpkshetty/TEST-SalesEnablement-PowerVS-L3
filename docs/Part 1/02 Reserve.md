@@ -54,7 +54,7 @@
 
     ![image](https://github.com/user-attachments/assets/396ab31f-4846-462f-b0a8-eed217569305)
 
-10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal. **Note,** joining the IBM cloud account associated with the TechZone reservation is a must, otherwise you won't have access to the IBM cloud resources needed to complete the hands-on lab-guide provided in this course.
+10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.<br>**Note,** joining the IBM cloud account associated with the TechZone reservation is a must, otherwise you won't have access to the IBM cloud resources needed to complete the hands-on lab-guide provided in this course.
     ![image](https://github.com/user-attachments/assets/7f67d496-aa54-4a0a-91da-a8bde55f2570)
 
     !!! note "Troubleshooting in case email is not received"
