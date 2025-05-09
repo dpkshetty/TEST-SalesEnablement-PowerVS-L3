@@ -43,5 +43,5 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 
     Click the highlighted copy icon and then use your operating system's paste function. For example, ++ctrl+v++, or right-click and select ```Paste``` option.
     
-    ![](_attachments/copy-icon-highlighted.jpg)
+    ![](_attachments/d-copy-icon-highlighted.jpg)
 
