@@ -40,7 +40,7 @@
     !!! Important
         Clicking the PowerVS tile before it is marked as Ready (for example, if it shows as "scheduled" or "provisioning") displays incomplete data. Wait until the environment is **Ready** before you continue to the next step.
 
-8. In the reservation details page, locate the **User ID** field (scroll to the bottom) and record this value. It is needed later. It looks like your email address that was used to request the environment but with a period instead of an *at* sign (@).
+8. In the reservation details page, locate the **User ID** field (scroll to the bottom) and **record this value**. It is needed later. It looks like your email address that was used to request the environment but with a period instead of an *at* sign (@).
 
     ![image](https://github.com/user-attachments/assets/097edeb5-1b32-4a4b-9920-946e323f0339)
 
