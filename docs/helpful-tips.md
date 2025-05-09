@@ -43,6 +43,7 @@ Throughout the guide, images are used as examples of the IBM Cloud Portal, IBM C
 
     - Click the highlighted copy icon and then use your operating system's paste function. For example, ++ctrl+v++, or right-click and select ```Paste``` option.
     ![image](https://github.com/user-attachments/assets/fb104093-69d7-43fa-a8c4-07e37c530a8d)
+    ![image](https://github.com/user-attachments/assets/fb104093-69d7-43fa-a8c4-07e37c530a8d)
 
 ??? tip "TEST"
 
