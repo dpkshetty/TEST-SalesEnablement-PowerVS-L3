@@ -54,10 +54,12 @@
 
     ![image](https://github.com/user-attachments/assets/396ab31f-4846-462f-b0a8-eed217569305)
 
-10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
+10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal. **Note,** joining the IBM cloud account associated with the TechZone reservation is a must, otherwise you won't have access to the IBM cloud resources needed to complete the hands-on lab-guide provided in this course.
+    ![image](https://github.com/user-attachments/assets/7f67d496-aa54-4a0a-91da-a8bde55f2570)
 
-    If you do not receive an e-mail, try deleting the existing reservation in ITZ and try creating a new one. If that doesn't work, open a [support ticket](https://ibm.github.io/SalesEnablement-PowerVS-L3/support/){target="_blank"} and include the reservation ID and summarize the problem in your message.
+    !!! note "Troubleshooting in case email is not received"
+    
+        If you do not receive an e-mail, try deleting the existing reservation in ITZ and try creating a new one. If that doesn't work, open a [support ticket](https://dpkshetty.github.io/TEST-SalesEnablement-PowerVS-L3/support/){target="_blank"} and include the reservation ID and summarize the problem in your message.
 
-    ![](_attachments/ReservationEmail.png)
 
-Now that you have an active ITZ reservation, you can proceed. Remember, the default duration of the reservation is 2 days. You can extend the reservation for up to an extra four days. IBMers will need an active reservation to record their stand and deliver, and business partners will want it to complete the short quiz as part of the Level 3 learning plan.
+Now that you have an active TechZone reservation, you can proceed. Remember, the default duration of the reservation is 2 days. You can extend the reservation for up to an extra four days. IBMers will need an active reservation to record their stand and deliver, and business partners will want it to complete the short quiz as part of the Level 3 learning plan.
