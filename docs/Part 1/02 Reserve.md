@@ -1,4 +1,4 @@
-The steps that follow outline how to reserve access to the pre-provisioned, IBM Technology Zone (ITZ) demonstration environment.
+![image](https://github.com/user-attachments/assets/372fa97f-ebcb-452b-8c60-72122ad2198d)The steps that follow outline how to reserve access to the pre-provisioned, IBM Technology Zone (ITZ) demonstration environment.
 
 !!! tip "Remember, reserve the demonstration environment in IBM Technology Zone"
     Reserve an IBM Technology Zone environment ahead of time so that the instance has time to provision.
@@ -7,57 +7,52 @@ The steps that follow outline how to reserve access to the pre-provisioned, IBM 
 
     ![image](https://github.com/user-attachments/assets/df474600-78de-4fcb-b040-e66622b3f8ca)
 
-2. Click the **Demonstration Environment** tile that has the blue **Reserve** icon request for a reservation.
+2. In the **Demonstration Environment** tile, click **Reserve (A)** icon to request for a reservation.
 
-    ![](_attachments/ITZ-2.png)
+    ![image](https://github.com/user-attachments/assets/966434a3-527e-4c57-b12c-b156454e31d6)
 
-3. Select **Reserve Now**.
+3. A new browser tab or window will open with a web form for reserving the L3 environment. Navigate to that tab or window and Select **Reserve Now (A)**.
 
-    ![](_attachments/ITZ-3.png)
+    ![image](https://github.com/user-attachments/assets/94cad21e-75c5-40df-9b70-e079d57dbf0b)
 
 4. Complete the required fields for the reservation.
 
-    a. Provide the instance a unique name. For example, 'AndrewJ-PowerVS-L3'.
+    a. Provide the instance a unique **name (A)**. For example, 'PowerVS-L3-lab-env'.
   
-    b. Set the value of **Purpose** to **Education**.
+    b. Set the value of **Purpose** to **Education (B)**.
   
-    c. Write a brief note into the **Purpose Description** field.
+    c. Write a brief note into the **Purpose Description (C)** field.
   
-    d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter** (or a closer location if available).
+    d. Under the **Preferred Geography** field, select **itzadhoc03 - AMERICAS - us-south region - dal13 datacenter (D)** (or a closer location if available).
   
-    e. Specify the **End Date and Time** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
+    e. Specify the **Start Date and Time** and **End Date and Time** **(E)** for the reservation. The default reservation is for two days. You can extend the reservation for up to an extra four days.
 
-    ![](_attachments/ReservationInputs.png)
+    ![image](https://github.com/user-attachments/assets/8ee34949-b051-4442-ae4f-e1bde276ead4)
 
+5. When satisfied, scroll down and **accept the terms and conditions (A)** and then click **Submit (B)** to initiate the environment provisioning request.
 
-5. When satisfied, scroll down and (a) accept the terms and conditions and then (b) click **Submit** to initiate the environment provisioning request.
+    ![image](https://github.com/user-attachments/assets/80dfce1b-c573-43fb-a1b8-3db5544008bc)
 
-    ![](_attachments/ReservationSubmit2.png)
+6. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 10 to 15 minutes. When ready, an email is sent and the [TechZone my reservations](https://techzone.ibm.com/my/reservations){target="_blank"} page shows a PowerVS tile with the status of **Ready**. If marked as ready, click **Open this environment (A)** on the tile to drill down into details of the reservation.
 
-6. Wait for IBM Technology Zone to finish provisioning the PowerVS environment. The automation takes approximately 5 to 10 minutes. When ready, an email is sent _and_ the <a href="https://techzone.ibm.com/my/reservations" target="_blank">Reservations</a> page shows a PowerVS tile with the status of **Ready**. If marked as ready, click anywhere on the tile to drill down into details of the reservation.
-
-    ![](_attachments/ITZ-3a.png)
+    ![image](https://github.com/user-attachments/assets/53978062-5de5-4d40-9f9c-b6c31bb6219e)
 
     !!! Important
         Clicking the PowerVS tile before it is marked as Ready (for example, if it shows as "scheduled" or "provisioning") displays incomplete data. Wait until the environment is **Ready** before you continue to the next step.
 
-7. Click the reservation tile.
+8. In the reservation details page, locate the **User ID** field (scroll to the bottom) and record this value. It is needed later. It looks like your email address that was used to request the environment but with a period instead of an *at* sign (@).
 
-    ![](_attachments/ITZ-4.png)
+    ![image](https://github.com/user-attachments/assets/097edeb5-1b32-4a4b-9920-946e323f0339)
 
-8. Locate the **User ID** field and record this value. It is needed later. It looks like your email address that was used to request the environment but with a period instead of an *at* sign (@).
-
-    ![](_attachments/ReservationUserID.png)
-
-9. Click **Download SSH Private Key**.
+9. Click **Download SSH Private Key (A)** (scroll to the bottom of the reservation details page).
 
     This SSH key is used later to access the PowerVS virtual server instances.
 
-    !!! tip "Record the file name and location!"
+    !!! tip "Record the file name and location of the downloaded SSH key!"
     
-        The private key file is used later when accessing virtual machines on PowerVS.
+        This SSH private key file is used later when accessing virtual machines on PowerVS.
 
-    ![](_attachments/ReservationSSHkey.png)
+    ![image](https://github.com/user-attachments/assets/396ab31f-4846-462f-b0a8-eed217569305)
 
 10. Review the emails received. One is from **IBM Cloud** with the title **Account: You are invited to join an account in IBM Cloud**. In the body of the email is a **Join Now** link. Click the link and **Accept** the invitation on the IBM Cloud portal.
 
