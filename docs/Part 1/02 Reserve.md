@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/372fa97f-ebcb-452b-8c60-72122ad2198d)The steps that follow outline how to reserve access to the pre-provisioned, IBM Technology Zone (ITZ) demonstration environment.
+The steps that follow outline how to reserve access to the pre-provisioned, IBM Technology Zone (ITZ) demonstration environment.
 
 !!! tip "Remember, reserve the demonstration environment in IBM Technology Zone"
     Reserve an IBM Technology Zone environment ahead of time so that the instance has time to provision.
