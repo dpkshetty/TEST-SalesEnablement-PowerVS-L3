@@ -31,6 +31,7 @@ Every instance of IBM Power Virtual Server (PowerVS) consists of a mandatory boo
     ![image](https://github.com/user-attachments/assets/4a4de331-1fb4-48d2-bc87-11b1872c97ba)
 
 3. An error message like the following one is encountered if an attempt is made to complete an action. **An error is expected**, as full access to the shared environment is not provided. During a live client demonstration, or for an IBMers Stand and Deliver, tell the audience why the error is being seen but explain what happens when the action is successfully completed.
+   
     ![image](https://github.com/user-attachments/assets/9bfbec32-e5d3-45c9-b346-3c5c43833478)
 
 
