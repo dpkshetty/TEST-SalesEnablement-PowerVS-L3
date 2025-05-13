@@ -67,10 +67,17 @@ An error is expected, as full access to the shared environment is **not** provid
         ![](_attachments/bigEllipses.png)
 
 9. Click anywhere on the main screen (away from the menu from step 7).
-10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). From this dialog, the storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage. **Hint**: Business Partners should take note of the **Limited actions available during capture** information dialog that appears on the **Capture and export** page.
+10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). 
     ![image](https://github.com/user-attachments/assets/ad1edafb-f842-4a75-9f97-e314f44ef292)
-    
-12. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it.
+
+11. In this dialog, there are 2 forms, **Capture contents** and **Destination**. Capture contents form allows to choose which storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage (COS). Destination form allows you to choose the export destination and based on the choice made, additional fields appear where you can specify the image name or the COS details (region, bucket name, access key and others)
+    ![image](https://github.com/user-attachments/assets/1eeb302f-a9d0-4ce9-b4d8-500231b0a213)
+
+    <hr>
+
+    ![image](https://github.com/user-attachments/assets/e897cd47-73db-4e0a-bfad-73128f148ded)
+
+13. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it.
     ![image](https://github.com/user-attachments/assets/c59a5b74-4c0b-4987-acfc-4d5b0d33de03)
 
 14. Click the **Edit details** (**A**) link.
