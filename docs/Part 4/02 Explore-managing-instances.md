@@ -70,13 +70,15 @@ An error is expected, as full access to the shared environment is **not** provid
 10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). 
     ![image](https://github.com/user-attachments/assets/ad1edafb-f842-4a75-9f97-e314f44ef292)
 
-11. In this dialog, there are 2 forms, **Capture contents** and **Destination**. Capture contents form allows to choose which storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage (COS). Destination form allows you to choose the export destination and based on the choice made, additional fields appear where you can specify the image name or the COS details (region, bucket name, access key and others).
+11. The dialog describes two distinct forms within the interface:
+     - Capture Contents Form: This form facilitates the selection of storage volumes intended for export. The selected volumes can be exported either to the PowerVS service image catalog or to IBM Cloud Object Storage (COS).
+     - Destination Form: This form enables the specification of the export destination. Based on the selected destination, additional input fields are dynamically displayed. These fields allow for the configuration of parameters such as the image name (for the image catalog) or COS-specific details including region, bucket name, access key, and other relevant credentials.
     
-    ![image](https://github.com/user-attachments/assets/1eeb302f-a9d0-4ce9-b4d8-500231b0a213)
+     ![image](https://github.com/user-attachments/assets/1eeb302f-a9d0-4ce9-b4d8-500231b0a213)
 
-    <hr>
+     <hr>
 
-    ![image](https://github.com/user-attachments/assets/e897cd47-73db-4e0a-bfad-73128f148ded)
+     ![image](https://github.com/user-attachments/assets/e897cd47-73db-4e0a-bfad-73128f148ded)
 
 13. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it and return back to the VSI details view page.
     ![image](https://github.com/user-attachments/assets/c59a5b74-4c0b-4987-acfc-4d5b0d33de03)
