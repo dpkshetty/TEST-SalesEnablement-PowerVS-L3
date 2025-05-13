@@ -77,7 +77,7 @@ An error is expected, as full access to the shared environment is **not** provid
 
     ![image](https://github.com/user-attachments/assets/e897cd47-73db-4e0a-bfad-73128f148ded)
 
-13. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it.
+13. In this demonstration environment, full access to the IBM Cloud account is NOT provided. Any attempt to complete an action, will result in an error. Click **Cancel** (**A**) in the "Capture and export virtual server" dialog to close it and return back to the VSI details view page.
     ![image](https://github.com/user-attachments/assets/c59a5b74-4c0b-4987-acfc-4d5b0d33de03)
 
 14. Click the **Edit details** (**A**) link.
