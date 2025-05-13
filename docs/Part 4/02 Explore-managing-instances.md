@@ -70,7 +70,8 @@ An error is expected, as full access to the shared environment is **not** provid
 10. Click the **VM actions** (**A**) drop-down menu and select **Capture and export** (**B**). 
     ![image](https://github.com/user-attachments/assets/ad1edafb-f842-4a75-9f97-e314f44ef292)
 
-11. In this dialog, there are 2 forms, **Capture contents** and **Destination**. Capture contents form allows to choose which storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage (COS). Destination form allows you to choose the export destination and based on the choice made, additional fields appear where you can specify the image name or the COS details (region, bucket name, access key and others)
+11. In this dialog, there are 2 forms, **Capture contents** and **Destination**. Capture contents form allows to choose which storage volumes can be exported to either the PowerVS service image catalog or to IBM Cloud Object Storage (COS). Destination form allows you to choose the export destination and based on the choice made, additional fields appear where you can specify the image name or the COS details (region, bucket name, access key and others).
+    
     ![image](https://github.com/user-attachments/assets/1eeb302f-a9d0-4ce9-b4d8-500231b0a213)
 
     <hr>
