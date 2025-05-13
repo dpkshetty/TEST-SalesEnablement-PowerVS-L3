@@ -27,7 +27,7 @@ Use the following steps to log in to a PowerVS instance by using the IBM Cloud S
 
 Use the IBM Cloud Shell window that was opened in the next steps.
 
-4. In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon to upload a file. Upload the SSH key downloaded earlier.
+4. In the upper-right of the IBM Cloud Shell window is a square icon with an "up" arrow. Click this icon (**A**) and upload the SSH key downloaded earlier.
 
     ![image](https://github.com/user-attachments/assets/9f3a6d46-a300-43d5-86f8-c847bf592766)
 
