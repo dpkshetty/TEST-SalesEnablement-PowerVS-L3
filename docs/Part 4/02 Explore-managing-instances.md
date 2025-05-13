@@ -50,7 +50,7 @@ An error is expected, as full access to the shared environment is **not** provid
 
     ![image](https://github.com/user-attachments/assets/5b779dc8-4bd3-4909-8571-d7ac217502a1)
 
-7. Click **{{aixServer1.name}}** (**A**) in the **Virtual server workspaces** table.
+7. Click **{{aixServer1.name}}** (**A**) in the **Virtual server instances** table.
 
     ![image](https://github.com/user-attachments/assets/125d2256-152a-4ea1-b6f1-af278294cddf)
 
