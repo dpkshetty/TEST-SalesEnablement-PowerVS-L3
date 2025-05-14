@@ -45,5 +45,9 @@ As of April 2025, PowerVS supports reserving either Power S922, S1022, E1050 or 
 
 A dedicated host is now being provisioned. This process took approximately 10 minutes.
 
-After a host is reserved, users are able to provision virtual server instances by using either the provided standard operating system images or imported custom images. Shared processor pools (SPPs) can also be created in a dedicated host. Learn more about dedicated hosts <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-dedicated-host" target="_blank">here</a>.
+After a host is reserved, users are able to provision virtual server instances by using either the provided standard operating system images or imported custom images. Shared processor pools (SPPs) can also be created in a dedicated host. 
+
+That concludes the click through demonstration. Remember, you can use your active ITZ reservation to explore the deployed architecture in the PowerVS workspace: **PowerVS-L3-workspace**
+
+Learn more about dedicated hosts <a href="https://cloud.ibm.com/docs/power-iaas?topic=power-iaas-dedicated-host" target="_blank">here</a>.
 
