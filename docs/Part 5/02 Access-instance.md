@@ -51,7 +51,7 @@ Use the IBM Cloud Shell window that was opened in the next steps.
     
     ![image](https://github.com/user-attachments/assets/217bd8ad-c700-42d1-9412-4c25da55c9b4)
 
-5. You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting **<your_user_id>** for the value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/02%20Reserve/" target="_blank">Part 1 - Step 8</a>. If a prompt asks whether to continue connecting type **Yes** and then press Return or Enter. Ignore the message about the authenticity of the host not being established.
+5. You are now ready to remotely connect (SSH) to the PowerVS demonstration environment. Do so with the following command, substituting **\<your_user_id\>** for the **User ID** value recorded in <a href="https://ibm.github.io/SalesEnablement-PowerVS-L3/Part%201/02%20Reserve/" target="_blank">Part 1 - Step 8</a>. If a prompt asks whether to continue connecting type **Yes** and then press Return or Enter. Ignore the message about the authenticity of the host not being established.
 
     ```
     ssh -i ssh_private_key.pem <your_user_id>@{{aixServer1.publicIP}}
